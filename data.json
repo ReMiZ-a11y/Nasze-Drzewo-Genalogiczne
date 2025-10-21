@@ -1,0 +1,6973 @@
+[
+      {"id": "0",
+      "rels": {
+        "spouses": [
+          "a1f491c4-22fc-4b0c-91a0-dd4b0597f8b2"
+        ],
+        "children": [
+          "87122a86-81c5-42ac-b9c7-6b6cb68b0af9",
+          "91b81dcc-2ed5-40dc-94b8-47093fbbd1fc",
+          "0fb1d518-ec4c-4824-bc44-4f0df606fafd",
+          "57e12a16-26af-467a-9dfe-9c9255d30184",
+          "55c5164f-18b0-415e-b137-1d8a6cbe9195",
+          "778ecf56-f007-431b-86f9-d6012458ce66",
+          "1b02df6d-26fe-4712-adaa-ca09d1491a1a",
+          "7d1419f5-ee37-4788-8a3d-3f5f96632b23",
+          "cd69a3bf-2686-46ff-a4cf-3aeb6e0485ed"
+        ]
+      },
+      "data": {
+        "first name": "Antoni",
+        "last name": "Korzen",
+        "avatar": "https://static8.depositphotos.com/1009634/988/v/950/depositphotos_9883921-stock-illustration-no-user-profile-picture.jpg",
+        "gender": "M",
+        "maiden": "",
+        "birth year": "1883",
+        "death year": "1925",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Koziczyn",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "occupation": ""
+      }
+    },
+    {
+      "id": "a1f491c4-22fc-4b0c-91a0-dd4b0597f8b2",
+      "data": {
+        "gender": "F",
+        "first name": "Józefa",
+        "last name": "Korzeń",
+        "avatar": "https://static8.depositphotos.com/1009634/988/v/950/depositphotos_9883921-stock-illustration-no-user-profile-picture.jpg",
+        "maiden": "Bolek",
+        "birth year": "24.12.1881 ",
+        "death year": "04.05.1969",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Michałowo",
+        "death place": "Grodziczno",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "0"
+        ],
+        "children": [
+          "87122a86-81c5-42ac-b9c7-6b6cb68b0af9",
+          "91b81dcc-2ed5-40dc-94b8-47093fbbd1fc",
+          "0fb1d518-ec4c-4824-bc44-4f0df606fafd",
+          "57e12a16-26af-467a-9dfe-9c9255d30184",
+          "55c5164f-18b0-415e-b137-1d8a6cbe9195",
+          "778ecf56-f007-431b-86f9-d6012458ce66",
+          "1b02df6d-26fe-4712-adaa-ca09d1491a1a",
+          "7d1419f5-ee37-4788-8a3d-3f5f96632b23",
+          "cd69a3bf-2686-46ff-a4cf-3aeb6e0485ed"
+        ]
+      }
+    },
+    {
+      "id": "87122a86-81c5-42ac-b9c7-6b6cb68b0af9",
+      "data": {
+        "gender": "M",
+        "first name": "Franciszek",
+        "last name": "Korzeń",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Linowiec",
+        "death place": "Krynica Morska",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "0",
+        "mother": "a1f491c4-22fc-4b0c-91a0-dd4b0597f8b2",
+        "spouses": [
+          "bea7d9d4-0f56-438d-b52e-df1207d6a094"
+        ],
+        "children": [
+          "197234d0-0da7-4f47-9921-a1c6e6a418b9",
+          "e8ba6d5f-5d16-42da-9eed-7219b09873e0",
+          "00687174-4603-471f-90c9-92046294d243",
+          "e4278234-521c-447e-b3bd-ce9947f45f82"
+        ]
+      }
+    },
+    {
+      "id": "197234d0-0da7-4f47-9921-a1c6e6a418b9",
+      "data": {
+        "gender": "M",
+        "first name": "Franciszek Hendryk",
+        "last name": "Korzeń",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "20.01.1940",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Krynica Morska",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "87122a86-81c5-42ac-b9c7-6b6cb68b0af9",
+        "mother": "bea7d9d4-0f56-438d-b52e-df1207d6a094",
+        "spouses": [
+          "92d64cf2-c996-48f2-86fb-261a68792315"
+        ],
+        "children": [
+          "bc0114d6-3e29-44a8-8ae0-7959bc1eb3e0"
+        ]
+      }
+    },
+    {
+      "id": "bea7d9d4-0f56-438d-b52e-df1207d6a094",
+      "data": {
+        "gender": "F",
+        "first name": "Helena",
+        "last name": "Korzeń",
+        "avatar": "",
+        "maiden": "Kryzymon",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "87122a86-81c5-42ac-b9c7-6b6cb68b0af9"
+        ],
+        "children": [
+          "197234d0-0da7-4f47-9921-a1c6e6a418b9",
+          "e8ba6d5f-5d16-42da-9eed-7219b09873e0",
+          "00687174-4603-471f-90c9-92046294d243",
+          "e4278234-521c-447e-b3bd-ce9947f45f82"
+        ]
+      }
+    },
+    {
+      "id": "92d64cf2-c996-48f2-86fb-261a68792315",
+      "data": {
+        "gender": "F",
+        "first name": "Anna",
+        "last name": "Korzeń",
+        "avatar": "",
+        "maiden": "Recka",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "197234d0-0da7-4f47-9921-a1c6e6a418b9"
+        ],
+        "children": [
+          "bc0114d6-3e29-44a8-8ae0-7959bc1eb3e0"
+        ]
+      }
+    },
+    {
+      "id": "bc0114d6-3e29-44a8-8ae0-7959bc1eb3e0",
+      "data": {
+        "gender": "M",
+        "first name": "Marek",
+        "last name": "Korzeń",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Krynica Morska",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "197234d0-0da7-4f47-9921-a1c6e6a418b9",
+        "mother": "92d64cf2-c996-48f2-86fb-261a68792315"
+      }
+    },
+    {
+      "id": "e8ba6d5f-5d16-42da-9eed-7219b09873e0",
+      "data": {
+        "gender": "F",
+        "first name": "Danuta",
+        "last name": "Korzeń",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "bea7d9d4-0f56-438d-b52e-df1207d6a094",
+        "father": "87122a86-81c5-42ac-b9c7-6b6cb68b0af9"
+      }
+    },
+    {
+      "id": "00687174-4603-471f-90c9-92046294d243",
+      "data": {
+        "gender": "M",
+        "first name": "Zygmunt",
+        "last name": "Korzeń",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "13.4.1938",
+        "death year": " 20.4.2015",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Linowiec",
+        "death place": "Łódź",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "87122a86-81c5-42ac-b9c7-6b6cb68b0af9",
+        "mother": "bea7d9d4-0f56-438d-b52e-df1207d6a094",
+        "spouses": [
+          "1ab03063-6971-4173-80c4-04b08bded5b6"
+        ],
+        "children": [
+          "34a22a3b-fbd5-41e5-97c9-ee13dca93db2",
+          "0dd5488a-f33c-4546-8f09-1e8a01c05b59"
+        ]
+      }
+    },
+    {
+      "id": "e4278234-521c-447e-b3bd-ce9947f45f82",
+      "data": {
+        "gender": "F",
+        "first name": "Regina",
+        "last name": "Małecka",
+        "avatar": "",
+        "maiden": "Korzeń",
+        "birth year": "",
+        "death year": "-",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Kr",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "bea7d9d4-0f56-438d-b52e-df1207d6a094",
+        "father": "87122a86-81c5-42ac-b9c7-6b6cb68b0af9",
+        "spouses": [
+          "adc8cccc-2b73-45be-8f97-273355e9e1b4"
+        ],
+        "children": [
+          "e0eb6dbe-0ebd-4a15-a11a-e727ad311549"
+        ]
+      }
+    },
+    {
+      "id": "1ab03063-6971-4173-80c4-04b08bded5b6",
+      "data": {
+        "gender": "F",
+        "first name": "Wiesława",
+        "last name": "Korzeń",
+        "avatar": "",
+        "maiden": "Michalska",
+        "birth year": "24.03.1939",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Łódź",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "00687174-4603-471f-90c9-92046294d243"
+        ],
+        "children": [
+          "34a22a3b-fbd5-41e5-97c9-ee13dca93db2",
+          "0dd5488a-f33c-4546-8f09-1e8a01c05b59"
+        ]
+      }
+    },
+    {
+      "id": "adc8cccc-2b73-45be-8f97-273355e9e1b4",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Małecki",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "e4278234-521c-447e-b3bd-ce9947f45f82"
+        ],
+        "children": [
+          "e0eb6dbe-0ebd-4a15-a11a-e727ad311549"
+        ]
+      }
+    },
+    {
+      "id": "e0eb6dbe-0ebd-4a15-a11a-e727ad311549",
+      "data": {
+        "gender": "M",
+        "first name": "Krzysztof",
+        "last name": "Małecki",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Krynica Morska",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "adc8cccc-2b73-45be-8f97-273355e9e1b4",
+        "mother": "e4278234-521c-447e-b3bd-ce9947f45f82",
+        "spouses": [
+          "6a6800be-cef3-4f91-bb1b-e9567a21de4c"
+        ],
+        "children": [
+          "610ff56f-9154-48fe-8aef-8d3f9b296fcf"
+        ]
+      }
+    },
+    {
+      "id": "6a6800be-cef3-4f91-bb1b-e9567a21de4c",
+      "data": {
+        "gender": "F",
+        "first name": "Elżbieta",
+        "last name": "Małecka",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "e0eb6dbe-0ebd-4a15-a11a-e727ad311549"
+        ],
+        "children": [
+          "610ff56f-9154-48fe-8aef-8d3f9b296fcf"
+        ]
+      }
+    },
+    {
+      "id": "610ff56f-9154-48fe-8aef-8d3f9b296fcf",
+      "data": {
+        "gender": "M",
+        "first name": "Kamil",
+        "last name": "Małecki",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "e0eb6dbe-0ebd-4a15-a11a-e727ad311549",
+        "mother": "6a6800be-cef3-4f91-bb1b-e9567a21de4c"
+      }
+    },
+    {
+      "id": "34a22a3b-fbd5-41e5-97c9-ee13dca93db2",
+      "data": {
+        "gender": "M",
+        "first name": "Jerzy",
+        "last name": "Korzeń",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "23.09.1961",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Łódź",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "00687174-4603-471f-90c9-92046294d243",
+        "mother": "1ab03063-6971-4173-80c4-04b08bded5b6",
+        "spouses": [
+          "e5bbd924-1f27-4ecb-a26e-532e7e82ac09"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "0dd5488a-f33c-4546-8f09-1e8a01c05b59",
+      "data": {
+        "gender": "F",
+        "first name": "Katrzyna",
+        "last name": "Plebańska",
+        "avatar": "",
+        "maiden": "Korzeń",
+        "birth year": "17.11.1962",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Łódź",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "1ab03063-6971-4173-80c4-04b08bded5b6",
+        "father": "00687174-4603-471f-90c9-92046294d243",
+        "spouses": [
+          "74b5fcbb-8800-4bd6-bdf8-29cbf6841996"
+        ],
+        "children": [
+          "be8b6789-a84f-45c7-bae6-e74dda8e7ca9",
+          "81fc5070-fa82-4cff-bca5-0dead163b644"
+        ]
+      }
+    },
+    {
+      "id": "74b5fcbb-8800-4bd6-bdf8-29cbf6841996",
+      "data": {
+        "gender": "M",
+        "first name": "Zbigniew",
+        "last name": "Plebański",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "19.1.1962",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Łódź",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "0dd5488a-f33c-4546-8f09-1e8a01c05b59"
+        ],
+        "children": [
+          "be8b6789-a84f-45c7-bae6-e74dda8e7ca9",
+          "81fc5070-fa82-4cff-bca5-0dead163b644"
+        ]
+      }
+    },
+    {
+      "id": "be8b6789-a84f-45c7-bae6-e74dda8e7ca9",
+      "data": {
+        "gender": "M",
+        "first name": "Antoni",
+        "last name": "Plebański",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "17.03.1989",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Łódź",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "74b5fcbb-8800-4bd6-bdf8-29cbf6841996",
+        "mother": "0dd5488a-f33c-4546-8f09-1e8a01c05b59",
+        "spouses": [
+          "9900056e-164e-462d-8008-aaf1d0a38f2e"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "81fc5070-fa82-4cff-bca5-0dead163b644",
+      "data": {
+        "gender": "F",
+        "first name": "Zofia",
+        "last name": "Plebańska",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "11.05.1990",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "0dd5488a-f33c-4546-8f09-1e8a01c05b59",
+        "father": "74b5fcbb-8800-4bd6-bdf8-29cbf6841996"
+      }
+    },
+    {
+      "id": "9900056e-164e-462d-8008-aaf1d0a38f2e",
+      "data": {
+        "gender": "F",
+        "first name": "Katrzyna",
+        "last name": "Stenka- Plebańska",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "be8b6789-a84f-45c7-bae6-e74dda8e7ca9"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "e5bbd924-1f27-4ecb-a26e-532e7e82ac09",
+      "data": {
+        "gender": "F",
+        "first name": "Renata",
+        "last name": "Korzeń",
+        "avatar": "",
+        "maiden": "Wojciechowska",
+        "birth year": "23.03.1962",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Szczecin",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "34a22a3b-fbd5-41e5-97c9-ee13dca93db2"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "91b81dcc-2ed5-40dc-94b8-47093fbbd1fc",
+      "data": {
+        "gender": "F",
+        "first name": "Mariana",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "Korzeń",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "a1f491c4-22fc-4b0c-91a0-dd4b0597f8b2",
+        "father": "0",
+        "spouses": [
+          "edbecbd6-3765-48de-a63a-6e59e64c5e46"
+        ],
+        "children": [
+          "765b8066-8ac6-4b06-8c07-517d8e06c238",
+          "4aa2727a-69ad-415b-9645-9d4688ca6f5e",
+          "b42d4e42-610b-43c0-9fd4-8be627652918",
+          "88e7b4c3-28be-463a-b739-811a781a5c2e",
+          "23ab35be-a6e6-4220-8e5c-93e0ccb8ff81",
+          "df772989-6e5f-4a52-84f0-d0a855975a52"
+        ]
+      }
+    },
+    {
+      "id": "edbecbd6-3765-48de-a63a-6e59e64c5e46",
+      "data": {
+        "gender": "M",
+        "first name": "Kazimierz",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "91b81dcc-2ed5-40dc-94b8-47093fbbd1fc"
+        ],
+        "children": [
+          "765b8066-8ac6-4b06-8c07-517d8e06c238",
+          "4aa2727a-69ad-415b-9645-9d4688ca6f5e",
+          "b42d4e42-610b-43c0-9fd4-8be627652918",
+          "88e7b4c3-28be-463a-b739-811a781a5c2e",
+          "23ab35be-a6e6-4220-8e5c-93e0ccb8ff81",
+          "df772989-6e5f-4a52-84f0-d0a855975a52"
+        ]
+      }
+    },
+    {
+      "id": "765b8066-8ac6-4b06-8c07-517d8e06c238",
+      "data": {
+        "gender": "M",
+        "first name": "Henryk",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Lorki",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "edbecbd6-3765-48de-a63a-6e59e64c5e46",
+        "mother": "91b81dcc-2ed5-40dc-94b8-47093fbbd1fc",
+        "spouses": [
+          "efe0b980-6c2a-4eb4-87cd-a285822e35f1"
+        ],
+        "children": [
+          "4f5a0c3f-293d-46f1-9df1-a6871aa6821e",
+          "1d77e91b-4784-43d9-807e-7205d4e655f8",
+          "7cbeb2c1-1de5-4875-9c41-d3a6441a05e2",
+          "3e9186e0-5825-46b1-a4fe-2b272886801f"
+        ]
+      }
+    },
+    {
+      "id": "efe0b980-6c2a-4eb4-87cd-a285822e35f1",
+      "data": {
+        "gender": "F",
+        "first name": "Teresa",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "Górtatowska",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "765b8066-8ac6-4b06-8c07-517d8e06c238"
+        ],
+        "children": [
+          "4f5a0c3f-293d-46f1-9df1-a6871aa6821e",
+          "1d77e91b-4784-43d9-807e-7205d4e655f8",
+          "7cbeb2c1-1de5-4875-9c41-d3a6441a05e2",
+          "3e9186e0-5825-46b1-a4fe-2b272886801f"
+        ]
+      }
+    },
+    {
+      "id": "4f5a0c3f-293d-46f1-9df1-a6871aa6821e",
+      "data": {
+        "gender": "M",
+        "first name": "Jerz",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "765b8066-8ac6-4b06-8c07-517d8e06c238",
+        "mother": "efe0b980-6c2a-4eb4-87cd-a285822e35f1",
+        "spouses": [
+          "3b76d31a-e8eb-43e1-95a4-0aedf6289f69"
+        ],
+        "children": [
+          "c4505981-ea54-4767-b840-fc257d75e4cf",
+          "6eb08fcf-65b1-44ae-b5ca-05170d4474db",
+          "f682ca2b-2a87-458e-b15c-7ab1305327f2"
+        ]
+      }
+    },
+    {
+      "id": "3b76d31a-e8eb-43e1-95a4-0aedf6289f69",
+      "data": {
+        "gender": "F",
+        "first name": "Kamila",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "4f5a0c3f-293d-46f1-9df1-a6871aa6821e"
+        ],
+        "children": [
+          "c4505981-ea54-4767-b840-fc257d75e4cf",
+          "6eb08fcf-65b1-44ae-b5ca-05170d4474db",
+          "f682ca2b-2a87-458e-b15c-7ab1305327f2"
+        ]
+      }
+    },
+    {
+      "id": "c4505981-ea54-4767-b840-fc257d75e4cf",
+      "data": {
+        "gender": "F",
+        "first name": "Aleksandra",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "4f5a0c3f-293d-46f1-9df1-a6871aa6821e",
+        "mother": "3b76d31a-e8eb-43e1-95a4-0aedf6289f69"
+      }
+    },
+    {
+      "id": "6eb08fcf-65b1-44ae-b5ca-05170d4474db",
+      "data": {
+        "gender": "F",
+        "first name": "Julia",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "3b76d31a-e8eb-43e1-95a4-0aedf6289f69",
+        "father": "4f5a0c3f-293d-46f1-9df1-a6871aa6821e"
+      }
+    },
+    {
+      "id": "f682ca2b-2a87-458e-b15c-7ab1305327f2",
+      "data": {
+        "gender": "F",
+        "first name": "Justyna",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "3b76d31a-e8eb-43e1-95a4-0aedf6289f69",
+        "father": "4f5a0c3f-293d-46f1-9df1-a6871aa6821e"
+      }
+    },
+    {
+      "id": "1d77e91b-4784-43d9-807e-7205d4e655f8",
+      "data": {
+        "gender": "F",
+        "first name": "Gabriela",
+        "last name": "Szulc",
+        "avatar": "",
+        "maiden": "Stachewicz",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "efe0b980-6c2a-4eb4-87cd-a285822e35f1",
+        "father": "765b8066-8ac6-4b06-8c07-517d8e06c238",
+        "spouses": [
+          "70fbe89d-309d-44af-851b-e980f8b96aae"
+        ],
+        "children": [
+          "31dbcf7a-b9c3-44a5-9c17-bd8b0b05e5e9",
+          "21bd386c-5f7d-43ae-b247-cd91ebb7adfe",
+          "a06a8d59-2d2a-4d41-8d1f-43493196a5d6"
+        ]
+      }
+    },
+    {
+      "id": "70fbe89d-309d-44af-851b-e980f8b96aae",
+      "data": {
+        "gender": "M",
+        "first name": "Adam",
+        "last name": "Szulc",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "1d77e91b-4784-43d9-807e-7205d4e655f8"
+        ],
+        "children": [
+          "31dbcf7a-b9c3-44a5-9c17-bd8b0b05e5e9",
+          "21bd386c-5f7d-43ae-b247-cd91ebb7adfe",
+          "a06a8d59-2d2a-4d41-8d1f-43493196a5d6"
+        ]
+      }
+    },
+    {
+      "id": "31dbcf7a-b9c3-44a5-9c17-bd8b0b05e5e9",
+      "data": {
+        "gender": "F",
+        "first name": "Dagmara",
+        "last name": "Szulc",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "1d77e91b-4784-43d9-807e-7205d4e655f8",
+        "father": "70fbe89d-309d-44af-851b-e980f8b96aae"
+      }
+    },
+    {
+      "id": "21bd386c-5f7d-43ae-b247-cd91ebb7adfe",
+      "data": {
+        "gender": "M",
+        "first name": "Kacper",
+        "last name": "Szulc",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "70fbe89d-309d-44af-851b-e980f8b96aae",
+        "mother": "1d77e91b-4784-43d9-807e-7205d4e655f8"
+      }
+    },
+    {
+      "id": "a06a8d59-2d2a-4d41-8d1f-43493196a5d6",
+      "data": {
+        "gender": "F",
+        "first name": "Aneta",
+        "last name": "Szulc",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "1d77e91b-4784-43d9-807e-7205d4e655f8",
+        "father": "70fbe89d-309d-44af-851b-e980f8b96aae"
+      }
+    },
+    {
+      "id": "7cbeb2c1-1de5-4875-9c41-d3a6441a05e2",
+      "data": {
+        "gender": "M",
+        "first name": "Krzysztof",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "765b8066-8ac6-4b06-8c07-517d8e06c238",
+        "mother": "efe0b980-6c2a-4eb4-87cd-a285822e35f1",
+        "spouses": [
+          "d79c8381-8c97-4640-adc1-a5d0ec54f67b"
+        ],
+        "children": [
+          "7ba761b2-c0e9-4b09-8417-46c860c5eb25",
+          "61de73a0-2ee3-4fbf-bc15-79fb254c647e"
+        ]
+      }
+    },
+    {
+      "id": "d79c8381-8c97-4640-adc1-a5d0ec54f67b",
+      "data": {
+        "gender": "F",
+        "first name": "Anna",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "Dembowska",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "7cbeb2c1-1de5-4875-9c41-d3a6441a05e2"
+        ],
+        "children": [
+          "7ba761b2-c0e9-4b09-8417-46c860c5eb25",
+          "61de73a0-2ee3-4fbf-bc15-79fb254c647e"
+        ]
+      }
+    },
+    {
+      "id": "7ba761b2-c0e9-4b09-8417-46c860c5eb25",
+      "data": {
+        "gender": "M",
+        "first name": "Robert",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "7cbeb2c1-1de5-4875-9c41-d3a6441a05e2",
+        "mother": "d79c8381-8c97-4640-adc1-a5d0ec54f67b"
+      }
+    },
+    {
+      "id": "61de73a0-2ee3-4fbf-bc15-79fb254c647e",
+      "data": {
+        "gender": "M",
+        "first name": "Mateusz",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "7cbeb2c1-1de5-4875-9c41-d3a6441a05e2",
+        "mother": "d79c8381-8c97-4640-adc1-a5d0ec54f67b"
+      }
+    },
+    {
+      "id": "3e9186e0-5825-46b1-a4fe-2b272886801f",
+      "data": {
+        "gender": "M",
+        "first name": "Rafał",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "765b8066-8ac6-4b06-8c07-517d8e06c238",
+        "mother": "efe0b980-6c2a-4eb4-87cd-a285822e35f1",
+        "spouses": [
+          "0281c57e-9ae9-4817-adc4-389bf170f1af"
+        ],
+        "children": [
+          "52a8802d-5391-4993-9702-704d0eee8098"
+        ]
+      }
+    },
+    {
+      "id": "0281c57e-9ae9-4817-adc4-389bf170f1af",
+      "data": {
+        "gender": "F",
+        "first name": "Alina",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "Lendzion",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "3e9186e0-5825-46b1-a4fe-2b272886801f"
+        ],
+        "children": [
+          "52a8802d-5391-4993-9702-704d0eee8098"
+        ]
+      }
+    },
+    {
+      "id": "52a8802d-5391-4993-9702-704d0eee8098",
+      "data": {
+        "gender": "F",
+        "first name": "Wiktoria",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "0281c57e-9ae9-4817-adc4-389bf170f1af",
+        "father": "3e9186e0-5825-46b1-a4fe-2b272886801f"
+      }
+    },
+    {
+      "id": "4aa2727a-69ad-415b-9645-9d4688ca6f5e",
+      "data": {
+        "gender": "F",
+        "first name": "Halina",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Lorki",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "91b81dcc-2ed5-40dc-94b8-47093fbbd1fc",
+        "father": "edbecbd6-3765-48de-a63a-6e59e64c5e46"
+      }
+    },
+    {
+      "id": "b42d4e42-610b-43c0-9fd4-8be627652918",
+      "data": {
+        "gender": "M",
+        "first name": "Jan",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Lorki",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "edbecbd6-3765-48de-a63a-6e59e64c5e46",
+        "mother": "91b81dcc-2ed5-40dc-94b8-47093fbbd1fc",
+        "spouses": [
+          "2db1783d-983c-40d8-90f6-d9ff589eefca"
+        ],
+        "children": [
+          "90bb599b-e30b-44a4-8c40-c2dd2b8246fb",
+          "6ec25b58-e106-488c-9ea2-b564a89d5416",
+          "573843b5-60e1-4999-a642-3eda2ce57ac6"
+        ]
+      }
+    },
+    {
+      "id": "2db1783d-983c-40d8-90f6-d9ff589eefca",
+      "data": {
+        "gender": "F",
+        "first name": "Anna",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "b42d4e42-610b-43c0-9fd4-8be627652918"
+        ],
+        "children": [
+          "90bb599b-e30b-44a4-8c40-c2dd2b8246fb",
+          "6ec25b58-e106-488c-9ea2-b564a89d5416",
+          "573843b5-60e1-4999-a642-3eda2ce57ac6"
+        ]
+      }
+    },
+    {
+      "id": "90bb599b-e30b-44a4-8c40-c2dd2b8246fb",
+      "data": {
+        "gender": "M",
+        "first name": "Ryszard",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "b42d4e42-610b-43c0-9fd4-8be627652918",
+        "mother": "2db1783d-983c-40d8-90f6-d9ff589eefca"
+      }
+    },
+    {
+      "id": "6ec25b58-e106-488c-9ea2-b564a89d5416",
+      "data": {
+        "gender": "F",
+        "first name": "Barbara",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "2db1783d-983c-40d8-90f6-d9ff589eefca",
+        "father": "b42d4e42-610b-43c0-9fd4-8be627652918"
+      }
+    },
+    {
+      "id": "573843b5-60e1-4999-a642-3eda2ce57ac6",
+      "data": {
+        "gender": "F",
+        "first name": "Elżbieta",
+        "last name": "Stachewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "2db1783d-983c-40d8-90f6-d9ff589eefca",
+        "father": "b42d4e42-610b-43c0-9fd4-8be627652918"
+      }
+    },
+    {
+      "id": "88e7b4c3-28be-463a-b739-811a781a5c2e",
+      "data": {
+        "gender": "F",
+        "first name": "Krystyna",
+        "last name": "Kotewicz",
+        "avatar": "",
+        "maiden": "Stachewicz",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "91b81dcc-2ed5-40dc-94b8-47093fbbd1fc",
+        "father": "edbecbd6-3765-48de-a63a-6e59e64c5e46",
+        "spouses": [
+          "63100369-06bd-41e3-a627-5227325e6a33"
+        ],
+        "children": [
+          "b8cfa6e7-1749-4784-8ca0-5b1080e146c1",
+          "b5e55ab4-bec4-4978-8386-592ebbb912f4"
+        ]
+      }
+    },
+    {
+      "id": "63100369-06bd-41e3-a627-5227325e6a33",
+      "data": {
+        "gender": "M",
+        "first name": "Edmund",
+        "last name": "Kotewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "88e7b4c3-28be-463a-b739-811a781a5c2e"
+        ],
+        "children": [
+          "b8cfa6e7-1749-4784-8ca0-5b1080e146c1",
+          "b5e55ab4-bec4-4978-8386-592ebbb912f4"
+        ]
+      }
+    },
+    {
+      "id": "b8cfa6e7-1749-4784-8ca0-5b1080e146c1",
+      "data": {
+        "gender": "F",
+        "first name": "Halina",
+        "last name": "Kotewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "88e7b4c3-28be-463a-b739-811a781a5c2e",
+        "father": "63100369-06bd-41e3-a627-5227325e6a33"
+      }
+    },
+    {
+      "id": "b5e55ab4-bec4-4978-8386-592ebbb912f4",
+      "data": {
+        "gender": "F",
+        "first name": "Teresa",
+        "last name": "Kotewicz",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "88e7b4c3-28be-463a-b739-811a781a5c2e",
+        "father": "63100369-06bd-41e3-a627-5227325e6a33"
+      }
+    },
+    {
+      "id": "23ab35be-a6e6-4220-8e5c-93e0ccb8ff81",
+      "data": {
+        "gender": "F",
+        "first name": "Stefania",
+        "last name": "Cieszyńska",
+        "avatar": "",
+        "maiden": "Stachewicz",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Lorki",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "91b81dcc-2ed5-40dc-94b8-47093fbbd1fc",
+        "father": "edbecbd6-3765-48de-a63a-6e59e64c5e46",
+        "spouses": [
+          "6eae7f6c-b91a-4c95-8b8d-2155edc8423e"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "6eae7f6c-b91a-4c95-8b8d-2155edc8423e",
+      "data": {
+        "gender": "M",
+        "first name": "Teofil",
+        "last name": "Cieszyński",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "23ab35be-a6e6-4220-8e5c-93e0ccb8ff81"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "df772989-6e5f-4a52-84f0-d0a855975a52",
+      "data": {
+        "gender": "F",
+        "first name": "Marianna",
+        "last name": "Skrzypczak",
+        "avatar": "",
+        "maiden": "Stachewicz",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "91b81dcc-2ed5-40dc-94b8-47093fbbd1fc",
+        "father": "edbecbd6-3765-48de-a63a-6e59e64c5e46",
+        "spouses": [
+          "52aa7534-6bb4-4c0a-bd0b-448380009324"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "52aa7534-6bb4-4c0a-bd0b-448380009324",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Skrzypczak",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "df772989-6e5f-4a52-84f0-d0a855975a52"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "0fb1d518-ec4c-4824-bc44-4f0df606fafd",
+      "data": {
+        "gender": "M",
+        "first name": "Stanisław",
+        "last name": "Korzeń",
+        "avatar": "/img/stanislawkorzen.ico",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "0",
+        "mother": "a1f491c4-22fc-4b0c-91a0-dd4b0597f8b2",
+        "spouses": [
+          "99372606-2211-4782-8ba1-17839dfdd067"
+        ],
+        "children": [
+          "9834d597-663c-4629-8a37-c9415fd18376",
+          "92820ef3-25e9-4111-a38b-a7b4cbcd70f4",
+          "c207343f-3cd8-4564-8a7c-92683c714fe3",
+          "726f74e0-a7f3-4d83-9321-f12f8bba3f69",
+          "cd3f7f42-2cd9-4bcd-be51-d1ae174a4de7"
+        ]
+      }
+    },
+    {
+      "id": "99372606-2211-4782-8ba1-17839dfdd067",
+      "data": {
+        "gender": "F",
+        "first name": "Maria",
+        "last name": "Korzeń",
+        "avatar": "/img/mariakorzen.ico",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "0fb1d518-ec4c-4824-bc44-4f0df606fafd"
+        ],
+        "children": [
+          "9834d597-663c-4629-8a37-c9415fd18376",
+          "92820ef3-25e9-4111-a38b-a7b4cbcd70f4",
+          "c207343f-3cd8-4564-8a7c-92683c714fe3",
+          "726f74e0-a7f3-4d83-9321-f12f8bba3f69",
+          "cd3f7f42-2cd9-4bcd-be51-d1ae174a4de7"
+        ]
+      }
+    },
+    {
+      "id": "9834d597-663c-4629-8a37-c9415fd18376",
+      "data": {
+        "gender": "M",
+        "first name": "Tadeusz",
+        "last name": "Korzeń",
+        "avatar": "/img/tadeuszkorzen.ico",
+        "maiden": "",
+        "birth year": "20.03.1951",
+        "death year": "10.03.2010",
+        "location": "Mroczno 178",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Lorki",
+        "death place": "Mroczno",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "occupation": ""
+      },
+      "rels": {
+        "father": "0fb1d518-ec4c-4824-bc44-4f0df606fafd",
+        "mother": "99372606-2211-4782-8ba1-17839dfdd067",
+        "spouses": [
+          "18f25efa-d056-422a-9929-31c266a927f6"
+        ],
+        "children": [
+          "50c761ec-5e08-4a62-8737-d46c197b8b2e",
+          "9916e823-3cb9-47e3-824e-c327365b2100",
+          "7342f5c2-281b-4db1-8e87-5386f27f7ad0"
+        ]
+      }
+    },
+    {
+      "id": "92820ef3-25e9-4111-a38b-a7b4cbcd70f4",
+      "data": {
+        "gender": "M",
+        "first name": "Jan",
+        "last name": "Korzeń",
+        "avatar": "/img/jankorzen.ico",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Lorki",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "0fb1d518-ec4c-4824-bc44-4f0df606fafd",
+        "mother": "99372606-2211-4782-8ba1-17839dfdd067",
+        "spouses": [
+          "f9c5cae5-d20a-457c-9236-711aa4412dbd"
+        ],
+        "children": [
+          "4642400a-9b21-4df6-9d3d-a01760019ba5",
+          "d5be869a-f912-4236-8dd1-8c4932d1ada1"
+        ]
+      }
+    },
+    {
+      "id": "c207343f-3cd8-4564-8a7c-92683c714fe3",
+      "data": {
+        "gender": "F",
+        "first name": "Irena",
+        "last name": "Urbańska",
+        "avatar": "/img/irenakorzen.ico",
+        "maiden": "Korzeń",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Lorki",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "99372606-2211-4782-8ba1-17839dfdd067",
+        "father": "0fb1d518-ec4c-4824-bc44-4f0df606fafd",
+        "spouses": [
+          "c526e079-346c-4b37-a70c-09d3b06316c8"
+        ],
+        "children": [
+          "fd871be2-aed8-457a-81fa-65c53caee9a4",
+          "f6e91663-d953-4891-843d-a223e91c3675",
+          "2ab60bc8-4d92-451b-9836-6f1fe021cf73",
+          "bb037b16-34b9-48f6-94ad-f04d40f90008",
+          "a83e1031-8faf-4498-89cd-6ce6bee846e5",
+          "7889eaa4-66cd-4f69-a07e-94ea7d9f4399"
+        ]
+      }
+    },
+    {
+      "id": "c526e079-346c-4b37-a70c-09d3b06316c8",
+      "data": {
+        "gender": "M",
+        "first name": "Stanisław",
+        "last name": "Urbański",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "occupation": ""
+      },
+      "rels": {
+        "spouses": [
+          "c207343f-3cd8-4564-8a7c-92683c714fe3"
+        ],
+        "children": [
+          "fd871be2-aed8-457a-81fa-65c53caee9a4",
+          "f6e91663-d953-4891-843d-a223e91c3675",
+          "2ab60bc8-4d92-451b-9836-6f1fe021cf73",
+          "bb037b16-34b9-48f6-94ad-f04d40f90008",
+          "a83e1031-8faf-4498-89cd-6ce6bee846e5",
+          "7889eaa4-66cd-4f69-a07e-94ea7d9f4399"
+        ]
+      }
+    },
+    {
+      "id": "fd871be2-aed8-457a-81fa-65c53caee9a4",
+      "data": {
+        "gender": "F",
+        "first name": "Agnieszka",
+        "last name": "Nisgorska ",
+        "avatar": "/img/agnieszkanisgorska.ico",
+        "maiden": "Urbańska",
+        "birth year": " ",
+        "death year": "",
+        "location": "Lubowidz",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Lubowidz",
+        "death place": "",
+        "marriage date": "28.06.2007",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/agnieszka.nisgorska",
+        "notes": ""
+      },
+      "rels": {
+        "father": "c526e079-346c-4b37-a70c-09d3b06316c8",
+        "mother": "c207343f-3cd8-4564-8a7c-92683c714fe3",
+        "spouses": [
+          "80d6c317-63d5-48fd-b728-528e952120ae"
+        ],
+        "children": [
+          "b3638e32-fd93-4a19-b003-6b97e385da43",
+          "0ec966ea-9b17-45cd-adfc-1fe78daa8e48"
+        ]
+      }
+    },
+    {
+      "id": "f6e91663-d953-4891-843d-a223e91c3675",
+      "data": {
+        "gender": "F",
+        "first name": "Barbara",
+        "last name": "Urbańska",
+        "avatar": "/img/barbaraurbanska.ico ",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "Warszawa'",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Lubowidz",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "occupation": "Sztudiyrowoł Mediacje sądowe i pozasądowe we Akademia Pedagogiki Specjalnej im. Marii Grzegorzewskiej, Uczōła sia we Akademia Pedagogiki Specjalnej im. M. Grzegorzewskiej Warszawa, Sztudiyrowoł Resocjalizacja we APS w Warszawie"
+      },
+      "rels": {
+        "mother": "c207343f-3cd8-4564-8a7c-92683c714fe3",
+        "father": "c526e079-346c-4b37-a70c-09d3b06316c8",
+        "spouses": [
+          "379b58b7-c5b3-4b73-95ca-d05df1164f94"
+        ],
+        "children": [
+          "1d66bd78-f7de-45ee-9615-988d063c380f"
+        ]
+      }
+    },
+    {
+      "id": "80d6c317-63d5-48fd-b728-528e952120ae",
+      "data": {
+        "gender": "M",
+        "first name": "Jacek",
+        "last name": "Nisgorski",
+        "avatar": "/",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "fd871be2-aed8-457a-81fa-65c53caee9a4"
+        ],
+        "children": [
+          "b3638e32-fd93-4a19-b003-6b97e385da43",
+          "0ec966ea-9b17-45cd-adfc-1fe78daa8e48"
+        ]
+      }
+    },
+    {
+      "id": "b3638e32-fd93-4a19-b003-6b97e385da43",
+      "data": {
+        "gender": "M",
+        "first name": "Wiktor",
+        "last name": "Nisgorski",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "80d6c317-63d5-48fd-b728-528e952120ae",
+        "mother": "fd871be2-aed8-457a-81fa-65c53caee9a4"
+      }
+    },
+    {
+      "id": "0ec966ea-9b17-45cd-adfc-1fe78daa8e48",
+      "data": {
+        "gender": "M",
+        "first name": "Adrian",
+        "last name": "Nisgorski",
+        "avatar": "",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "80d6c317-63d5-48fd-b728-528e952120ae",
+        "mother": "fd871be2-aed8-457a-81fa-65c53caee9a4"
+      }
+    },
+    {
+      "id": "1d66bd78-f7de-45ee-9615-988d063c380f",
+      "data": {
+        "gender": "M",
+        "first name": "Adaś",
+        "last name": "Kozłowski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "f6e91663-d953-4891-843d-a223e91c3675",
+        "spouses": [],
+        "children": [],
+        "father": "379b58b7-c5b3-4b73-95ca-d05df1164f94"
+      }
+    },
+    {
+      "id": "726f74e0-a7f3-4d83-9321-f12f8bba3f69",
+      "data": {
+        "gender": "M",
+        "first name": "Jerzy",
+        "last name": "Korzeń",
+        "avatar": "/img/jerzykorzen.ico",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Lorki",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "occupation": ""
+      },
+      "rels": {
+        "father": "0fb1d518-ec4c-4824-bc44-4f0df606fafd",
+        "mother": "99372606-2211-4782-8ba1-17839dfdd067",
+        "spouses": [
+          "0b03bb30-c705-4804-85a8-b8b56ef1b94c"
+        ],
+        "children": [
+          "ba2411a8-6e68-48d4-a2dd-7f340fbedf79",
+          "377ab210-a68f-497a-95d8-a0d2a990e656",
+          "27890259-e59f-420d-b6ef-c81a6035bb31"
+        ]
+      }
+    },
+    {
+      "id": "ba2411a8-6e68-48d4-a2dd-7f340fbedf79",
+      "data": {
+        "gender": "F",
+        "first name": "Katrzyna",
+        "last name": "Jurkiewicz",
+        "avatar": "",
+        "maiden": "Korzeń",
+        "birth year": "08.09.1982",
+        "death year": "",
+        "location": "Lubawa",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "occupation": ""
+      },
+      "rels": {
+        "father": "726f74e0-a7f3-4d83-9321-f12f8bba3f69",
+        "mother": "0b03bb30-c705-4804-85a8-b8b56ef1b94c",
+        "spouses": [
+          "211d06e6-79d0-4b37-8566-c58f09695e9d"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "cd3f7f42-2cd9-4bcd-be51-d1ae174a4de7",
+      "data": {
+        "gender": "M",
+        "first name": "Czesław",
+        "last name": "Korzeń",
+        "avatar": "/img/czeslawkorzen.ico",
+        "maiden": "",
+        "birth year": "06.08.1955",
+        "death year": "",
+        "location": "Mroczno 189",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Lorki",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "0fb1d518-ec4c-4824-bc44-4f0df606fafd",
+        "mother": "99372606-2211-4782-8ba1-17839dfdd067",
+        "spouses": [
+          "4a06472b-f3c1-4467-9c8e-1e49a14a80b5"
+        ],
+        "children": [
+          "9826d883-a51a-4861-be1a-fe04b6631141",
+          "37a598bc-62e3-4221-89a6-62508c4cac58",
+          "c14409d7-6845-4842-80bb-ce0342ba9add",
+          "7ce6f21a-ee90-4f70-9799-f341c847ce82",
+          "4f237f2a-bb90-4519-bcfd-37ec71770b9a",
+          "794b61b6-cc75-4908-bc58-d06e242cd7c1"
+        ]
+      }
+    },
+    {
+      "id": "4a06472b-f3c1-4467-9c8e-1e49a14a80b5",
+      "data": {
+        "gender": "F",
+        "first name": "Halina",
+        "last name": "Korzeń",
+        "avatar": "/img/halinakorzen.ico",
+        "maiden": "Miąskowska",
+        "birth year": "11.07.1961",
+        "death year": "26.03.2015",
+        "location": "Mroczno 189",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "",
+        "death place": "Mroczno",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "Objawy stwardnienia rozsianego (SM)"
+      },
+      "rels": {
+        "spouses": [
+          "cd3f7f42-2cd9-4bcd-be51-d1ae174a4de7"
+        ],
+        "children": [
+          "9826d883-a51a-4861-be1a-fe04b6631141",
+          "37a598bc-62e3-4221-89a6-62508c4cac58",
+          "c14409d7-6845-4842-80bb-ce0342ba9add",
+          "7ce6f21a-ee90-4f70-9799-f341c847ce82",
+          "4f237f2a-bb90-4519-bcfd-37ec71770b9a",
+          "794b61b6-cc75-4908-bc58-d06e242cd7c1"
+        ]
+      }
+    },
+    {
+      "id": "9826d883-a51a-4861-be1a-fe04b6631141",
+      "data": {
+        "gender": "F",
+        "first name": "Danuta Maria",
+        "last name": "Balińska",
+        "avatar": "img/dankabalinska.ico",
+        "maiden": "Korzeń",
+        "birth year": "16.03.1986",
+        "death year": "-",
+        "location": "Mroczno",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "06.10.2012",
+        "email": "ddbalinscy@outlook.com",
+        "phone": "+48 515 514 509",
+        "address": "",
+        "notes": "numer buta 39",
+
+        "occupation": ""
+      },
+      "rels": {
+        "mother": "4a06472b-f3c1-4467-9c8e-1e49a14a80b5",
+        "father": "cd3f7f42-2cd9-4bcd-be51-d1ae174a4de7",
+        "spouses": [
+          "544f01c5-be18-4522-afc9-8041b08c54c4"
+        ],
+        "children": [
+          "fd40be52-f60e-4917-8876-8f1f3edfe363",
+          "3eefc1c5-fb05-4d4b-a5f9-2ffdb7b48ab3",
+          "d94cf615-8f4c-4409-b767-0f0cb3dabf81",
+          "2c0de095-d432-4723-a14f-ed9a3a1ec2dd",
+          "79ae3bbd-aa9d-46b0-b529-3cc6367f2ea2"
+        ]
+      }
+    },
+    {
+      "id": "544f01c5-be18-4522-afc9-8041b08c54c4",
+      "data": {
+        "gender": "M",
+        "first name": "Dawid Andrzej",
+        "last name": "Baliński",
+        "avatar": "img/dawidbalinski.ico",
+        "maiden": "",
+        "birth year": "06.08.1989",
+        "death year": "",
+        "location": "Mroczno 60",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Olsztyn",
+        "death place": "",
+        "marriage date": "06.10.2012",
+        "email": "ddbalinscy@outlook.com",
+        "phone": "+48 510 700 124",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "9826d883-a51a-4861-be1a-fe04b6631141"
+        ],
+        "children": [
+          "fd40be52-f60e-4917-8876-8f1f3edfe363",
+          "3eefc1c5-fb05-4d4b-a5f9-2ffdb7b48ab3",
+          "d94cf615-8f4c-4409-b767-0f0cb3dabf81",
+          "2c0de095-d432-4723-a14f-ed9a3a1ec2dd",
+          "79ae3bbd-aa9d-46b0-b529-3cc6367f2ea2"
+        ]
+      }
+    },
+    {
+      "id": "fd40be52-f60e-4917-8876-8f1f3edfe363",
+      "data": {
+        "gender": "M",
+        "first name": "Filip",
+        "last name": "Balinski",
+        "avatar": "/img/filipbalinski.ico",
+        "maiden": "",
+        "birth year": "26.06.2010",
+        "death year": "",
+        "location": "Mroczno 60",
+        "education": "Technik Rolnik",
+        "nationality": "Polska",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "filpbalinski2606@gmail.com",
+        "phone": "+48 798950184",
+        "address": "13 324 Mroczno",
+        "notes": ""
+      },
+      "rels": {
+        "father": "544f01c5-be18-4522-afc9-8041b08c54c4",
+        "mother": "9826d883-a51a-4861-be1a-fe04b6631141"
+      }
+    },
+    {
+      "id": "3eefc1c5-fb05-4d4b-a5f9-2ffdb7b48ab3",
+      "data": {
+        "gender": "M",
+        "first name": "Olaf",
+        "last name": "Balinski",
+        "avatar": "img/olafbalinski.ico",
+        "maiden": "",
+        "birth year": "09.04.2012",
+        "death year": "",
+        "location": "Mroczno 60",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "544f01c5-be18-4522-afc9-8041b08c54c4",
+        "mother": "9826d883-a51a-4861-be1a-fe04b6631141"
+      }
+    },
+    {
+      "id": "d94cf615-8f4c-4409-b767-0f0cb3dabf81",
+      "data": {
+        "gender": "M",
+        "first name": "Sebastian",
+        "last name": "Baliński",
+        "avatar": "/img/sebastianbalinski.ico",
+        "maiden": "",
+        "birth year": "17.02.2014",
+        "death year": "",
+        "location": "Mroczno 60",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "544f01c5-be18-4522-afc9-8041b08c54c4",
+        "mother": "9826d883-a51a-4861-be1a-fe04b6631141"
+      }
+    },
+    {
+      "id": "2c0de095-d432-4723-a14f-ed9a3a1ec2dd",
+      "data": {
+        "gender": "F",
+        "first name": "Kalina",
+        "last name": "Balińska",
+        "avatar": "img/kalinabalinska.ico",
+        "maiden": "",
+        "birth year": "02.07.2016",
+        "death year": "",
+        "location": "Mroczno 60",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "9826d883-a51a-4861-be1a-fe04b6631141",
+        "father": "544f01c5-be18-4522-afc9-8041b08c54c4"
+      }
+    },
+    {
+      "id": "79ae3bbd-aa9d-46b0-b529-3cc6367f2ea2",
+      "data": {
+        "gender": "F",
+        "first name": "Agata",
+        "last name": "Balińska",
+        "avatar": "img/agatabalinska.ico",
+        "maiden": "",
+        "birth year": "04.04.2018",
+        "death year": "",
+        "location": "Mroczno 60",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "0",
+        "occupation": ""
+      },
+      "rels": {
+        "mother": "9826d883-a51a-4861-be1a-fe04b6631141",
+        "father": "544f01c5-be18-4522-afc9-8041b08c54c4"
+      }
+    },
+    {
+      "id": "37a598bc-62e3-4221-89a6-62508c4cac58",
+      "data": {
+        "gender": "M",
+        "first name": "Janusz",
+        "last name": "Korzeń",
+        "avatar": "img/januszkorzen.ico",
+        "maiden": "",
+        "birth year": "13.02.1987",
+        "death year": "",
+        "location": "Nowe Miasto Lubawskie",
+        "education": "Sztudiyrowoł Zarządzanie Systemami Produkcji we Politechnika Gdańska",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "25.08.2018",
+        "email": "",
+        "phone": "+48 796 125 171",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "cd3f7f42-2cd9-4bcd-be51-d1ae174a4de7",
+        "mother": "4a06472b-f3c1-4467-9c8e-1e49a14a80b5",
+        "spouses": [
+          "5adb99ea-685c-478e-9b07-7254953d60a7"
+        ],
+        "children": [
+          "7e9a4e2c-45b1-47fa-b88d-046d609f3a25",
+          "41906c5b-2d6a-492f-b3c3-15b8ab4fe098",
+          "0c4e54b0-ced6-4504-8d86-9eea736e5a55"
+        ]
+      }
+    },
+    {
+      "id": "5adb99ea-685c-478e-9b07-7254953d60a7",
+      "data": {
+        "gender": "F",
+        "first name": "Alicja",
+        "last name": "Jettmar-Korzen",
+        "avatar": "img/alicjajettmar-korzen.ico",
+        "maiden": "Jettmar",
+        "birth year": "17.12.",
+        "death year": "",
+        "location": "Nowe Miasto Lubawskie",
+        "education": "Uczōła sia we Wydział Medycyny Weterynaryjnej UWM - Olsztyn",
+        "nationality": "Poland",
+        "birth place": "Gdańsk",
+        "death place": "",
+        "marriage date": "25.08.1993",
+        "email": "",
+        "phone": "+48 781 958 320",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "37a598bc-62e3-4221-89a6-62508c4cac58"
+        ],
+        "children": [
+          "7e9a4e2c-45b1-47fa-b88d-046d609f3a25",
+          "41906c5b-2d6a-492f-b3c3-15b8ab4fe098",
+          "0c4e54b0-ced6-4504-8d86-9eea736e5a55"
+        ]
+      }
+    },
+    {
+      "id": "7e9a4e2c-45b1-47fa-b88d-046d609f3a25",
+      "data": {
+        "gender": "F",
+        "first name": "Wiktoria",
+        "last name": "Korzeń",
+        "avatar": "img/wiktoriakorzen.ico",
+        "maiden": "",
+        "birth year": "05.07.19",
+        "death year": "",
+        "location": "Nowe Miasto Lubawskie",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "5adb99ea-685c-478e-9b07-7254953d60a7",
+        "father": "37a598bc-62e3-4221-89a6-62508c4cac58"
+      }
+    },
+    {
+      "id": "41906c5b-2d6a-492f-b3c3-15b8ab4fe098",
+      "data": {
+        "gender": "F",
+        "first name": "Helena",
+        "last name": "Korzeń",
+        "avatar": "/img/helenakorzen.ico",
+        "maiden": "",
+        "birth year": "",
+        "death year": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "5adb99ea-685c-478e-9b07-7254953d60a7",
+        "father": "37a598bc-62e3-4221-89a6-62508c4cac58"
+      }
+    },
+    {
+      "id": "0c4e54b0-ced6-4504-8d86-9eea736e5a55",
+      "data": {
+        "gender": "F",
+        "first name": "Stefania",
+        "last name": "Korzeń",
+        "avatar": "img/stefaniakorzen.ico",
+        "maiden": "",
+        "birth year": "09.03.2025",
+        "death year": "",
+        "location": "Nowe Miasto Lubawskie",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "mother": "5adb99ea-685c-478e-9b07-7254953d60a7",
+        "father": "37a598bc-62e3-4221-89a6-62508c4cac58"
+      }
+    },
+    {
+      "id": "c14409d7-6845-4842-80bb-ce0342ba9add",
+      "data": {
+        "gender": "M",
+        "first name": "Mirosław",
+        "last name": "Korzeń",
+        "avatar": "img/mirekkorzen.ico",
+        "maiden": "",
+        "birth year": "19.04.1988",
+        "death year": "",
+        "location": "Lubawa",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "+48 508 575 891",
+        "address": "",
+        "notes": "Magic old Cars Lubawa  https://www.facebook.com/profile.php?id=100028847900133"
+      },
+      "rels": {
+        "father": "cd3f7f42-2cd9-4bcd-be51-d1ae174a4de7",
+        "mother": "4a06472b-f3c1-4467-9c8e-1e49a14a80b5",
+        "spouses": [],
+        "children": []
+      }
+    },
+
+    {
+      "id": "7ce6f21a-ee90-4f70-9799-f341c847ce82",
+      "data": {
+        "gender": "M",
+        "first name": "Andrzej",
+        "last name": "Korzeń",
+        "avatar": "img/andrzejkorzen.ico",
+        "maiden": "",
+        "birth year": "01.08.1991",
+        "death year": "",
+        "location": "Mroczno 189",
+        "education": "Mechanik",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "++48 798 236 018",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "cd3f7f42-2cd9-4bcd-be51-d1ae174a4de7",
+        "mother": "4a06472b-f3c1-4467-9c8e-1e49a14a80b5"
+      }
+    },
+    {
+      "id": "4f237f2a-bb90-4519-bcfd-37ec71770b9a",
+      "data": {
+        "gender": "M",
+        "first name": "Kazimierz",
+        "last name": "Korzeń",
+        "avatar": "img/kazikkorzen.ico",
+        "maiden": "",
+        "birth year": "12.10.1992",
+        "death year": "",
+        "location": "Mroczno 189",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "+48 785 212 214",
+        "address": "",
+        "notes": ""
+      },
+      "rels": {
+        "father": "cd3f7f42-2cd9-4bcd-be51-d1ae174a4de7",
+        "mother": "4a06472b-f3c1-4467-9c8e-1e49a14a80b5"
+      }
+    },
+    {
+      "id": "794b61b6-cc75-4908-bc58-d06e242cd7c1",
+      "data": {
+        "gender": "M",
+        "first name": "Maciej",
+        "last name": "Korzeń",
+        "avatar": "/img/maciejkorzen.ico",
+        "maiden": "",
+        "birth year": "31.03.1998",
+        "death year": "",
+        "location": "Mroczno 189",
+        "education": "TechnikumZespół Szkół Zawodowych w Kurzętniku Technik Informatyk",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "maciejkorzen@proton.me",
+        "phone": "+48 882 829 921",
+        "address": "13-324 Mroczno",
+        "notes": ""
+      },
+      "rels": {
+        "father": "cd3f7f42-2cd9-4bcd-be51-d1ae174a4de7",
+        "mother": "4a06472b-f3c1-4467-9c8e-1e49a14a80b5"
+      }
+    },
+    {
+      "id": "57e12a16-26af-467a-9dfe-9c9255d30184",
+      "data": {
+        "gender": "F",
+        "first name": "Bronisława",
+        "last name": "Otremba",
+        "avatar": "",
+        "birth year": "22.04.1917",
+        "death year": "05.11.2012",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Korzeń"
+      },
+      "rels": {
+        "mother": "a1f491c4-22fc-4b0c-91a0-dd4b0597f8b2",
+        "father": "0",
+        "spouses": [
+          "4f9e38a7-e31d-40b3-8ddf-ff65c1ec8e55"
+        ],
+        "children": [
+          "deb972fe-edcf-48ff-817a-5104acc6fd48",
+          "3829120a-5fe6-47c5-a1a7-1f772c2fb310",
+          "6d3a3bfe-6457-4f52-977e-569f3f5106c4",
+          "32b2db5f-c059-4334-a59b-a99ab51e07bf",
+          "4b63212c-8336-4622-a685-ee552ab3a824"
+        ]
+      }
+    },
+    {
+      "id": "4f9e38a7-e31d-40b3-8ddf-ff65c1ec8e55",
+      "data": {
+        "gender": "M",
+        "first name": "Leonad",
+        "last name": "Otremba",
+        "avatar": "",
+        "birth year": "26.05.1910",
+        "death year": "01.03.1972",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "57e12a16-26af-467a-9dfe-9c9255d30184"
+        ],
+        "children": [
+          "deb972fe-edcf-48ff-817a-5104acc6fd48",
+          "3829120a-5fe6-47c5-a1a7-1f772c2fb310",
+          "6d3a3bfe-6457-4f52-977e-569f3f5106c4",
+          "32b2db5f-c059-4334-a59b-a99ab51e07bf",
+          "4b63212c-8336-4622-a685-ee552ab3a824"
+        ]
+      }
+    },
+    {
+      "id": "deb972fe-edcf-48ff-817a-5104acc6fd48",
+      "data": {
+        "gender": "M",
+        "first name": "Edward Lech",
+        "last name": "Otremba",
+        "avatar": "",
+        "birth year": "01.10.1946",
+        "death year": "18.08.2014",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "4f9e38a7-e31d-40b3-8ddf-ff65c1ec8e55",
+        "mother": "57e12a16-26af-467a-9dfe-9c9255d30184",
+        "spouses": [
+          "93bc1a2f-f0d6-4f18-8420-65999dd8ee5d"
+        ],
+        "children": [
+          "1728535f-ac0a-4347-a05d-23c6625a39e2",
+          "d74df3b3-86b2-4449-af60-5317583f4762"
+        ]
+      }
+    },
+    {
+      "id": "93bc1a2f-f0d6-4f18-8420-65999dd8ee5d",
+      "data": {
+        "gender": "F",
+        "first name": "",
+        "last name": "Otremba",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "deb972fe-edcf-48ff-817a-5104acc6fd48"
+        ],
+        "children": [
+          "1728535f-ac0a-4347-a05d-23c6625a39e2",
+          "d74df3b3-86b2-4449-af60-5317583f4762"
+        ]
+      }
+    },
+    {
+      "id": "1728535f-ac0a-4347-a05d-23c6625a39e2",
+      "data": {
+        "gender": "M",
+        "first name": "Mateusz",
+        "last name": "Otremba",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "deb972fe-edcf-48ff-817a-5104acc6fd48",
+        "mother": "93bc1a2f-f0d6-4f18-8420-65999dd8ee5d"
+      }
+    },
+    {
+      "id": "d74df3b3-86b2-4449-af60-5317583f4762",
+      "data": {
+        "gender": "M",
+        "first name": "Dariusz",
+        "last name": "Otremba",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "deb972fe-edcf-48ff-817a-5104acc6fd48",
+        "mother": "93bc1a2f-f0d6-4f18-8420-65999dd8ee5d"
+      }
+    },
+    {
+      "id": "3829120a-5fe6-47c5-a1a7-1f772c2fb310",
+      "data": {
+        "gender": "M",
+        "first name": "Marian Mirosław",
+        "last name": "Otremba",
+        "avatar": "",
+        "birth year": "",
+        "death year": "02.02.1958",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "57e12a16-26af-467a-9dfe-9c9255d30184",
+        "father": "4f9e38a7-e31d-40b3-8ddf-ff65c1ec8e55",
+        "spouses": [
+          "b9204fe3-cb4c-4b62-a9b9-1289618d426f"
+        ],
+        "children": [
+          "988ea8e8-da1a-43aa-b109-dc1c3eb7499b"
+        ]
+      }
+    },
+    {
+      "id": "b9204fe3-cb4c-4b62-a9b9-1289618d426f",
+      "data": {
+        "gender": "F",
+        "first name": "",
+        "last name": "Otremba",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "3829120a-5fe6-47c5-a1a7-1f772c2fb310"
+        ],
+        "children": [
+          "988ea8e8-da1a-43aa-b109-dc1c3eb7499b"
+        ]
+      }
+    },
+    {
+      "id": "988ea8e8-da1a-43aa-b109-dc1c3eb7499b",
+      "data": {
+        "gender": "M",
+        "first name": "Waldemar",
+        "last name": "Otremba",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "3829120a-5fe6-47c5-a1a7-1f772c2fb310",
+        "mother": "b9204fe3-cb4c-4b62-a9b9-1289618d426f"
+      }
+    },
+    {
+      "id": "6d3a3bfe-6457-4f52-977e-569f3f5106c4",
+      "data": {
+        "gender": "F",
+        "first name": "Renata Maria",
+        "last name": "Ryłka",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Otremba"
+      },
+      "rels": {
+        "mother": "57e12a16-26af-467a-9dfe-9c9255d30184",
+        "father": "4f9e38a7-e31d-40b3-8ddf-ff65c1ec8e55",
+        "spouses": [
+          "2db29d85-ec05-4de3-b375-e1a2a8fa7906"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "2db29d85-ec05-4de3-b375-e1a2a8fa7906",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Ryłka",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "6d3a3bfe-6457-4f52-977e-569f3f5106c4"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "32b2db5f-c059-4334-a59b-a99ab51e07bf",
+      "data": {
+        "gender": "F",
+        "first name": "Zenobian Janina ",
+        "last name": "Rochowicz",
+        "avatar": "",
+        "birth year": "30.10.1947",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Otremba"
+      },
+      "rels": {
+        "mother": "57e12a16-26af-467a-9dfe-9c9255d30184",
+        "father": "4f9e38a7-e31d-40b3-8ddf-ff65c1ec8e55",
+        "spouses": [
+          "7071f8f3-e955-4fb4-bcaf-cb483535b07c"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "7071f8f3-e955-4fb4-bcaf-cb483535b07c",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Rochowicz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "32b2db5f-c059-4334-a59b-a99ab51e07bf"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "4b63212c-8336-4622-a685-ee552ab3a824",
+      "data": {
+        "gender": "M",
+        "first name": "Hubert Zbyszek",
+        "last name": "Otremba",
+        "avatar": "",
+        "birth year": "04.04.1950",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "4f9e38a7-e31d-40b3-8ddf-ff65c1ec8e55",
+        "mother": "57e12a16-26af-467a-9dfe-9c9255d30184"
+      }
+    },
+    {
+      "id": "55c5164f-18b0-415e-b137-1d8a6cbe9195",
+      "data": {
+        "gender": "F",
+        "first name": "Helena",
+        "last name": "Kamińska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Korzeń"
+      },
+      "rels": {
+        "mother": "a1f491c4-22fc-4b0c-91a0-dd4b0597f8b2",
+        "father": "0",
+        "spouses": [
+          "9397ddd6-1c55-4d0d-b369-73ea553af29f"
+        ],
+        "children": [
+          "8f3427ca-2f5c-43f6-80d9-bf3d208cc544",
+          "f831c7ac-2118-422b-9309-83f2534adc96"
+        ]
+      }
+    },
+    {
+      "id": "9397ddd6-1c55-4d0d-b369-73ea553af29f",
+      "data": {
+        "gender": "M",
+        "first name": "Walenty",
+        "last name": "Kamiński",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "55c5164f-18b0-415e-b137-1d8a6cbe9195"
+        ],
+        "children": [
+          "8f3427ca-2f5c-43f6-80d9-bf3d208cc544",
+          "f831c7ac-2118-422b-9309-83f2534adc96"
+        ]
+      }
+    },
+    {
+      "id": "8f3427ca-2f5c-43f6-80d9-bf3d208cc544",
+      "data": {
+        "gender": "F",
+        "first name": "Mariola ",
+        "last name": "Piórkowska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Kaminska"
+      },
+      "rels": {
+        "father": "9397ddd6-1c55-4d0d-b369-73ea553af29f",
+        "mother": "55c5164f-18b0-415e-b137-1d8a6cbe9195",
+        "spouses": [
+          "c6d7c46a-2b2f-41cd-971a-617363b8c1ce"
+        ],
+        "children": [
+          "158f6c65-350a-409f-9aaa-5ae88bb153cb",
+          "50450c2c-aad0-44a0-a59d-5bc078104ef4",
+          "5adc1f42-13ef-4d92-9fcd-81c4a90c024f",
+          "d29d5161-f783-4ab2-80a5-8e4bcee568bd"
+        ]
+      }
+    },
+    {
+      "id": "c6d7c46a-2b2f-41cd-971a-617363b8c1ce",
+      "data": {
+        "gender": "M",
+        "first name": "Edmunt",
+        "last name": "Piórkowski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "8f3427ca-2f5c-43f6-80d9-bf3d208cc544"
+        ],
+        "children": [
+          "158f6c65-350a-409f-9aaa-5ae88bb153cb",
+          "50450c2c-aad0-44a0-a59d-5bc078104ef4",
+          "5adc1f42-13ef-4d92-9fcd-81c4a90c024f",
+          "d29d5161-f783-4ab2-80a5-8e4bcee568bd"
+        ]
+      }
+    },
+    {
+      "id": "158f6c65-350a-409f-9aaa-5ae88bb153cb",
+      "data": {
+        "gender": "M",
+        "first name": "Marek",
+        "last name": "Piórkowski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "c6d7c46a-2b2f-41cd-971a-617363b8c1ce",
+        "mother": "8f3427ca-2f5c-43f6-80d9-bf3d208cc544",
+        "spouses": [
+          "cabf24a2-3c15-4f69-9d58-e05ea2f91bf7"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "cabf24a2-3c15-4f69-9d58-e05ea2f91bf7",
+      "data": {
+        "gender": "F",
+        "first name": "Ewelina",
+        "last name": "Piórkowska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Aleksandrowicz"
+      },
+      "rels": {
+        "spouses": [
+          "158f6c65-350a-409f-9aaa-5ae88bb153cb"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "50450c2c-aad0-44a0-a59d-5bc078104ef4",
+      "data": {
+        "gender": "M",
+        "first name": "Ireneusz",
+        "last name": "Piórkowski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "c6d7c46a-2b2f-41cd-971a-617363b8c1ce",
+        "mother": "8f3427ca-2f5c-43f6-80d9-bf3d208cc544"
+      }
+    },
+    {
+      "id": "5adc1f42-13ef-4d92-9fcd-81c4a90c024f",
+      "data": {
+        "gender": "M",
+        "first name": "Arkadiusz",
+        "last name": "Piorkowski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "c6d7c46a-2b2f-41cd-971a-617363b8c1ce",
+        "mother": "8f3427ca-2f5c-43f6-80d9-bf3d208cc544"
+      }
+    },
+    {
+      "id": "d29d5161-f783-4ab2-80a5-8e4bcee568bd",
+      "data": {
+        "gender": "F",
+        "first name": "Agnieszka",
+        "last name": "Piorkowska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "8f3427ca-2f5c-43f6-80d9-bf3d208cc544",
+        "father": "c6d7c46a-2b2f-41cd-971a-617363b8c1ce"
+      }
+    },
+    {
+      "id": "f831c7ac-2118-422b-9309-83f2534adc96",
+      "data": {
+        "gender": "M",
+        "first name": "Dariusz",
+        "last name": "Kamiński",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "9397ddd6-1c55-4d0d-b369-73ea553af29f",
+        "mother": "55c5164f-18b0-415e-b137-1d8a6cbe9195"
+      }
+    },
+    {
+      "id": "778ecf56-f007-431b-86f9-d6012458ce66",
+      "data": {
+        "gender": "F",
+        "first name": "Stanisława",
+        "last name": "Nowak",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "Krynica Morska",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Korzeń"
+      },
+      "rels": {
+        "mother": "a1f491c4-22fc-4b0c-91a0-dd4b0597f8b2",
+        "father": "0",
+        "spouses": [
+          "b4b80a7f-5255-4162-bcf1-1fb60f1fe84f"
+        ],
+        "children": [
+          "f0824044-7cac-411c-87e5-7380e31de016",
+          "6757c1df-f42e-4b0b-9742-56b6292e88dd",
+          "b2c6d334-8478-4382-aefc-9fb3a92ae3e5"
+        ]
+      }
+    },
+    {
+      "id": "b4b80a7f-5255-4162-bcf1-1fb60f1fe84f",
+      "data": {
+        "gender": "M",
+        "first name": "Joachim",
+        "last name": "Nowak",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "778ecf56-f007-431b-86f9-d6012458ce66"
+        ],
+        "children": [
+          "f0824044-7cac-411c-87e5-7380e31de016",
+          "6757c1df-f42e-4b0b-9742-56b6292e88dd",
+          "b2c6d334-8478-4382-aefc-9fb3a92ae3e5"
+        ]
+      }
+    },
+    {
+      "id": "f0824044-7cac-411c-87e5-7380e31de016",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Mikołajczyk",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "b4b80a7f-5255-4162-bcf1-1fb60f1fe84f",
+        "mother": "778ecf56-f007-431b-86f9-d6012458ce66",
+        "spouses": [
+          "cc564322-ba93-43e1-9ee4-509476e3480f"
+        ],
+        "children": [
+          "0f9404e5-9351-4899-97ec-2f8bef27220a",
+          "178a5905-2f00-45ab-a86c-b90618e48dd9"
+        ]
+      }
+    },
+    {
+      "id": "6757c1df-f42e-4b0b-9742-56b6292e88dd",
+      "data": {
+        "gender": "F",
+        "first name": "Barbara",
+        "last name": "Mikołajczyk",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Nowak"
+      },
+      "rels": {
+        "mother": "778ecf56-f007-431b-86f9-d6012458ce66",
+        "father": "b4b80a7f-5255-4162-bcf1-1fb60f1fe84f"
+      }
+    },
+    {
+      "id": "0f9404e5-9351-4899-97ec-2f8bef27220a",
+      "data": {
+        "gender": "M",
+        "first name": "PIotr",
+        "last name": "Mikołajczyk",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "f0824044-7cac-411c-87e5-7380e31de016",
+        "mother": "cc564322-ba93-43e1-9ee4-509476e3480f"
+      }
+    },
+    {
+      "id": "178a5905-2f00-45ab-a86c-b90618e48dd9",
+      "data": {
+        "gender": "M",
+        "first name": "Dariusz",
+        "last name": "Mikołajczyk",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "f0824044-7cac-411c-87e5-7380e31de016",
+        "mother": "cc564322-ba93-43e1-9ee4-509476e3480f"
+      }
+    },
+    {
+      "id": "b2c6d334-8478-4382-aefc-9fb3a92ae3e5",
+      "data": {
+        "gender": "M",
+        "first name": "Ryszard ",
+        "last name": "Nowak",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "b4b80a7f-5255-4162-bcf1-1fb60f1fe84f",
+        "mother": "778ecf56-f007-431b-86f9-d6012458ce66"
+      }
+    },
+    {
+      "id": "1b02df6d-26fe-4712-adaa-ca09d1491a1a",
+      "data": {
+        "gender": "F",
+        "first name": "Kazimiera ",
+        "last name": "Korzeń",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "Elbląg",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "a1f491c4-22fc-4b0c-91a0-dd4b0597f8b2",
+        "father": "0"
+      }
+    },
+    {
+      "id": "7d1419f5-ee37-4788-8a3d-3f5f96632b23",
+      "data": {
+        "gender": "F",
+        "first name": "Zofia",
+        "last name": "Krezymon",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Korzeń"
+      },
+      "rels": {
+        "mother": "a1f491c4-22fc-4b0c-91a0-dd4b0597f8b2",
+        "father": "0",
+        "spouses": [
+          "3e17005a-a8ba-4d07-b807-a8e77e5e1805"
+        ],
+        "children": [
+          "fa925825-03d6-45fb-929a-f80ba4ad134d",
+          "efa4cc0b-e48d-4c6d-90c0-cfa92e1f93fc",
+          "96b7394e-ba39-46b3-9b66-255e04811fa1",
+          "4cd9ee3b-2bc0-44bd-823b-748c0a2a1263",
+          "5720670e-8046-4350-b1b0-2ee530d8a59e",
+          "168d50e4-2e6b-4490-91fa-391edf46e51f"
+        ]
+      }
+    },
+    {
+      "id": "3e17005a-a8ba-4d07-b807-a8e77e5e1805",
+      "data": {
+        "gender": "M",
+        "first name": "Feliks",
+        "last name": "Krezymon",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "7d1419f5-ee37-4788-8a3d-3f5f96632b23"
+        ],
+        "children": [
+          "fa925825-03d6-45fb-929a-f80ba4ad134d",
+          "efa4cc0b-e48d-4c6d-90c0-cfa92e1f93fc",
+          "96b7394e-ba39-46b3-9b66-255e04811fa1",
+          "4cd9ee3b-2bc0-44bd-823b-748c0a2a1263",
+          "5720670e-8046-4350-b1b0-2ee530d8a59e",
+          "168d50e4-2e6b-4490-91fa-391edf46e51f"
+        ]
+      }
+    },
+    {
+      "id": "fa925825-03d6-45fb-929a-f80ba4ad134d",
+      "data": {
+        "gender": "F",
+        "first name": "Melania",
+        "last name": "Karbowska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Kryzymon"
+      },
+      "rels": {
+        "mother": "7d1419f5-ee37-4788-8a3d-3f5f96632b23",
+        "father": "3e17005a-a8ba-4d07-b807-a8e77e5e1805",
+        "spouses": [
+          "7ab20f29-db11-4bbb-8237-8772fd1c4bf3"
+        ],
+        "children": [
+          "1d0a8178-e12f-4d59-bbf6-7b9fa9497334"
+        ]
+      }
+    },
+    {
+      "id": "7ab20f29-db11-4bbb-8237-8772fd1c4bf3",
+      "data": {
+        "gender": "M",
+        "first name": "Zygmunt",
+        "last name": "Karbowski",
+        "avatar": "",
+        "birth year": "17.06.1939",
+        "death year": "12.11.2016",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "Elbląg",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "fa925825-03d6-45fb-929a-f80ba4ad134d"
+        ],
+        "children": [
+          "1d0a8178-e12f-4d59-bbf6-7b9fa9497334"
+        ]
+      }
+    },
+    {
+      "id": "1d0a8178-e12f-4d59-bbf6-7b9fa9497334",
+      "data": {
+        "gender": "M",
+        "first name": "Marek",
+        "last name": "Karbowski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "7ab20f29-db11-4bbb-8237-8772fd1c4bf3",
+        "mother": "fa925825-03d6-45fb-929a-f80ba4ad134d"
+      }
+    },
+    {
+      "id": "efa4cc0b-e48d-4c6d-90c0-cfa92e1f93fc",
+      "data": {
+        "gender": "M",
+        "first name": "Jerzy ",
+        "last name": "Krezymon",
+        "avatar": "",
+        "birth year": "16.04.1940",
+        "death year": "28.10.1996",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "Elbląg",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "3e17005a-a8ba-4d07-b807-a8e77e5e1805",
+        "mother": "7d1419f5-ee37-4788-8a3d-3f5f96632b23",
+        "spouses": [
+          "1946d042-1c43-437b-8752-0d5946fdac72"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "1946d042-1c43-437b-8752-0d5946fdac72",
+      "data": {
+        "gender": "F",
+        "first name": "Krystyna",
+        "last name": "Krezymon",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "efa4cc0b-e48d-4c6d-90c0-cfa92e1f93fc"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "96b7394e-ba39-46b3-9b66-255e04811fa1",
+      "data": {
+        "gender": "F",
+        "first name": "Danuta",
+        "last name": "Liedtke",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Kryzymon"
+      },
+      "rels": {
+        "mother": "7d1419f5-ee37-4788-8a3d-3f5f96632b23",
+        "father": "3e17005a-a8ba-4d07-b807-a8e77e5e1805",
+        "spouses": [
+          "9017b962-a406-491b-86e9-0020b434cb47"
+        ],
+        "children": [
+          "5b178cbe-9928-4736-89ef-0e6f02f3c502",
+          "f93241ea-212f-4843-acf6-43b9d957a43e",
+          "2dbae751-8d24-48f0-a514-da910e4d5d9c"
+        ]
+      }
+    },
+    {
+      "id": "9017b962-a406-491b-86e9-0020b434cb47",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Liedtk",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "96b7394e-ba39-46b3-9b66-255e04811fa1"
+        ],
+        "children": [
+          "5b178cbe-9928-4736-89ef-0e6f02f3c502",
+          "f93241ea-212f-4843-acf6-43b9d957a43e",
+          "2dbae751-8d24-48f0-a514-da910e4d5d9c"
+        ]
+      }
+    },
+    {
+      "id": "5b178cbe-9928-4736-89ef-0e6f02f3c502",
+      "data": {
+        "gender": "M",
+        "first name": "Adam ",
+        "last name": "Liedtke",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "9017b962-a406-491b-86e9-0020b434cb47",
+        "mother": "96b7394e-ba39-46b3-9b66-255e04811fa1",
+        "spouses": [
+          "ccf587de-e5d4-4b26-a431-e89d57c0539c"
+        ],
+        "children": [
+          "be1cd888-6d4d-4801-bb27-9b97a884d60c"
+        ]
+      }
+    },
+    {
+      "id": "ccf587de-e5d4-4b26-a431-e89d57c0539c",
+      "data": {
+        "gender": "F",
+        "first name": "",
+        "last name": "Liedtke",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "5b178cbe-9928-4736-89ef-0e6f02f3c502"
+        ],
+        "children": [
+          "be1cd888-6d4d-4801-bb27-9b97a884d60c"
+        ]
+      }
+    },
+    {
+      "id": "be1cd888-6d4d-4801-bb27-9b97a884d60c",
+      "data": {
+        "gender": "M",
+        "first name": "Mateusz",
+        "last name": "Liedtke",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "5b178cbe-9928-4736-89ef-0e6f02f3c502",
+        "mother": "ccf587de-e5d4-4b26-a431-e89d57c0539c"
+      }
+    },
+    {
+      "id": "f93241ea-212f-4843-acf6-43b9d957a43e",
+      "data": {
+        "gender": "M",
+        "first name": "Patryk",
+        "last name": "Liedtke",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "9017b962-a406-491b-86e9-0020b434cb47",
+        "mother": "96b7394e-ba39-46b3-9b66-255e04811fa1",
+        "spouses": [
+          "0a0cc264-8b4f-4673-a97e-79406125e881"
+        ],
+        "children": [
+          "e013dff6-fd45-4771-bee5-3313d5966185",
+          "347002bd-c8b0-42d5-a5d1-8b1820bd854b"
+        ]
+      }
+    },
+    {
+      "id": "0a0cc264-8b4f-4673-a97e-79406125e881",
+      "data": {
+        "gender": "F",
+        "first name": "Anna",
+        "last name": "Liedtke",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "f93241ea-212f-4843-acf6-43b9d957a43e"
+        ],
+        "children": [
+          "e013dff6-fd45-4771-bee5-3313d5966185",
+          "347002bd-c8b0-42d5-a5d1-8b1820bd854b"
+        ]
+      }
+    },
+    {
+      "id": "e013dff6-fd45-4771-bee5-3313d5966185",
+      "data": {
+        "gender": "M",
+        "first name": "Patryk",
+        "last name": "Liedtke",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "f93241ea-212f-4843-acf6-43b9d957a43e",
+        "mother": "0a0cc264-8b4f-4673-a97e-79406125e881"
+      }
+    },
+    {
+      "id": "347002bd-c8b0-42d5-a5d1-8b1820bd854b",
+      "data": {
+        "gender": "M",
+        "first name": "Lukasz",
+        "last name": "Liedtke",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "f93241ea-212f-4843-acf6-43b9d957a43e",
+        "mother": "0a0cc264-8b4f-4673-a97e-79406125e881"
+      }
+    },
+    {
+      "id": "4cd9ee3b-2bc0-44bd-823b-748c0a2a1263",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Liedtke",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "3e17005a-a8ba-4d07-b807-a8e77e5e1805",
+        "mother": "7d1419f5-ee37-4788-8a3d-3f5f96632b23",
+        "spouses": [
+          "02a41fce-068e-4e05-8879-b2ffc2168ae5"
+        ],
+        "children": [
+          "13837c8a-8ca9-4b22-94cc-84a17675c9ba"
+        ]
+      }
+    },
+    {
+      "id": "13837c8a-8ca9-4b22-94cc-84a17675c9ba",
+      "data": {
+        "gender": "F",
+        "first name": "Ewa",
+        "last name": "Dobiesz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Liedtke"
+      },
+      "rels": {
+        "father": "4cd9ee3b-2bc0-44bd-823b-748c0a2a1263",
+        "spouses": [
+          "91cc753e-6030-4822-ab3f-15100c9f3259"
+        ],
+        "children": [
+          "92998035-9ae4-4777-a7d4-2f4e9778df9e",
+          "dcdea883-9cfe-41b8-91ce-b707168d0e3a"
+        ],
+        "mother": "02a41fce-068e-4e05-8879-b2ffc2168ae5"
+      }
+    },
+    {
+      "id": "91cc753e-6030-4822-ab3f-15100c9f3259",
+      "data": {
+        "gender": "M",
+        "first name": "Mirosław",
+        "last name": "Dobiesz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "13837c8a-8ca9-4b22-94cc-84a17675c9ba"
+        ],
+        "children": [
+          "92998035-9ae4-4777-a7d4-2f4e9778df9e",
+          "dcdea883-9cfe-41b8-91ce-b707168d0e3a"
+        ]
+      }
+    },
+    {
+      "id": "92998035-9ae4-4777-a7d4-2f4e9778df9e",
+      "data": {
+        "gender": "M",
+        "first name": "Daniel",
+        "last name": "Dobiesz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "91cc753e-6030-4822-ab3f-15100c9f3259",
+        "mother": "13837c8a-8ca9-4b22-94cc-84a17675c9ba"
+      }
+    },
+    {
+      "id": "dcdea883-9cfe-41b8-91ce-b707168d0e3a",
+      "data": {
+        "gender": "F",
+        "first name": "Nadia",
+        "last name": "Dobierz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "13837c8a-8ca9-4b22-94cc-84a17675c9ba",
+        "father": "91cc753e-6030-4822-ab3f-15100c9f3259"
+      }
+    },
+    {
+      "id": "2dbae751-8d24-48f0-a514-da910e4d5d9c",
+      "data": {
+        "gender": "F",
+        "first name": "Anna",
+        "last name": "Kisicka",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Liedtke"
+      },
+      "rels": {
+        "mother": "96b7394e-ba39-46b3-9b66-255e04811fa1",
+        "father": "9017b962-a406-491b-86e9-0020b434cb47",
+        "spouses": [
+          "b2455556-3b57-48f7-9e4c-6c9bf2531ed3"
+        ],
+        "children": [
+          "775f6860-5280-4f79-ac16-291b373ad837",
+          "a90c80ab-59c9-4ce7-a4ab-ff5abc978a0f"
+        ]
+      }
+    },
+    {
+      "id": "b2455556-3b57-48f7-9e4c-6c9bf2531ed3",
+      "data": {
+        "gender": "M",
+        "first name": "Mariusz",
+        "last name": "Kisicki",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "2dbae751-8d24-48f0-a514-da910e4d5d9c"
+        ],
+        "children": [
+          "775f6860-5280-4f79-ac16-291b373ad837",
+          "a90c80ab-59c9-4ce7-a4ab-ff5abc978a0f"
+        ]
+      }
+    },
+    {
+      "id": "775f6860-5280-4f79-ac16-291b373ad837",
+      "data": {
+        "gender": "M",
+        "first name": "Jakub",
+        "last name": "Kisicki",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "b2455556-3b57-48f7-9e4c-6c9bf2531ed3",
+        "mother": "2dbae751-8d24-48f0-a514-da910e4d5d9c"
+      }
+    },
+    {
+      "id": "a90c80ab-59c9-4ce7-a4ab-ff5abc978a0f",
+      "data": {
+        "gender": "F",
+        "first name": "Natalia",
+        "last name": "Kisicki",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "2dbae751-8d24-48f0-a514-da910e4d5d9c",
+        "father": "b2455556-3b57-48f7-9e4c-6c9bf2531ed3"
+      }
+    },
+    {
+      "id": "5720670e-8046-4350-b1b0-2ee530d8a59e",
+      "data": {
+        "gender": "M",
+        "first name": "Dariusz",
+        "last name": "Krezymon",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Linowiec",
+        "death place": "Linowiec",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "3e17005a-a8ba-4d07-b807-a8e77e5e1805",
+        "mother": "7d1419f5-ee37-4788-8a3d-3f5f96632b23",
+        "spouses": [
+          "53e5ae20-759b-4d7f-9a20-23e15602fc79"
+        ],
+        "children": [
+          "e8db58bc-19b1-4df9-b900-5cb79a202d64",
+          "cbac231c-6f4c-4ec1-b81b-83759f37b247",
+          "5c8a0392-7f3a-4136-b97d-4acbf099299a",
+          "7ca6726c-f82b-4cfc-96e4-c954f56a8da6",
+          "c8c46180-616c-4644-95ca-4fb155766022",
+          "d8403fe5-7614-4745-a08d-70d8a320502d"
+        ]
+      }
+    },
+    {
+      "id": "53e5ae20-759b-4d7f-9a20-23e15602fc79",
+      "data": {
+        "gender": "F",
+        "first name": "Wanda",
+        "last name": "Krezymon",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Karbowska"
+      },
+      "rels": {
+        "spouses": [
+          "5720670e-8046-4350-b1b0-2ee530d8a59e"
+        ],
+        "children": [
+          "e8db58bc-19b1-4df9-b900-5cb79a202d64",
+          "cbac231c-6f4c-4ec1-b81b-83759f37b247",
+          "5c8a0392-7f3a-4136-b97d-4acbf099299a",
+          "7ca6726c-f82b-4cfc-96e4-c954f56a8da6",
+          "c8c46180-616c-4644-95ca-4fb155766022",
+          "d8403fe5-7614-4745-a08d-70d8a320502d"
+        ]
+      }
+    },
+    {
+      "id": "e8db58bc-19b1-4df9-b900-5cb79a202d64",
+      "data": {
+        "gender": "F",
+        "first name": "Gabriela",
+        "last name": "Krezymon",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "53e5ae20-759b-4d7f-9a20-23e15602fc79",
+        "father": "5720670e-8046-4350-b1b0-2ee530d8a59e"
+      }
+    },
+    {
+      "id": "cbac231c-6f4c-4ec1-b81b-83759f37b247",
+      "data": {
+        "gender": "F",
+        "first name": "Mirosława",
+        "last name": "Krezymon",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "53e5ae20-759b-4d7f-9a20-23e15602fc79",
+        "father": "5720670e-8046-4350-b1b0-2ee530d8a59e"
+      }
+    },
+    {
+      "id": "5c8a0392-7f3a-4136-b97d-4acbf099299a",
+      "data": {
+        "gender": "F",
+        "first name": "Marlena",
+        "last name": "Sadowska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Kryzymon"
+      },
+      "rels": {
+        "mother": "53e5ae20-759b-4d7f-9a20-23e15602fc79",
+        "father": "5720670e-8046-4350-b1b0-2ee530d8a59e",
+        "spouses": [
+          "37df8c20-85f2-4bd1-bab5-e50776dc2a91"
+        ],
+        "children": [
+          "7239e0d9-f21b-4d36-8bc3-091aaae6787b"
+        ]
+      }
+    },
+    {
+      "id": "37df8c20-85f2-4bd1-bab5-e50776dc2a91",
+      "data": {
+        "gender": "M",
+        "first name": "Mariusz",
+        "last name": "Sadowski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "5c8a0392-7f3a-4136-b97d-4acbf099299a"
+        ],
+        "children": [
+          "7239e0d9-f21b-4d36-8bc3-091aaae6787b"
+        ]
+      }
+    },
+    {
+      "id": "7239e0d9-f21b-4d36-8bc3-091aaae6787b",
+      "data": {
+        "gender": "F",
+        "first name": "Dominika",
+        "last name": "Sadowska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "5c8a0392-7f3a-4136-b97d-4acbf099299a",
+        "father": "37df8c20-85f2-4bd1-bab5-e50776dc2a91"
+      }
+    },
+    {
+      "id": "7ca6726c-f82b-4cfc-96e4-c954f56a8da6",
+      "data": {
+        "gender": "M",
+        "first name": "Wiesław",
+        "last name": "Krezymon",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "5720670e-8046-4350-b1b0-2ee530d8a59e",
+        "mother": "53e5ae20-759b-4d7f-9a20-23e15602fc79"
+      }
+    },
+    {
+      "id": "c8c46180-616c-4644-95ca-4fb155766022",
+      "data": {
+        "gender": "F",
+        "first name": "Janina",
+        "last name": "Zabłotna",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Kryzymon"
+      },
+      "rels": {
+        "mother": "53e5ae20-759b-4d7f-9a20-23e15602fc79",
+        "father": "5720670e-8046-4350-b1b0-2ee530d8a59e",
+        "spouses": [
+          "ed43d2df-fc15-4468-a8fd-133e02bcdad3"
+        ],
+        "children": [
+          "b4704402-023d-4343-9073-b05b53fde986",
+          "50e5d6f2-83e7-400c-a07f-20f8bf21da21",
+          "54366572-dbcb-43b8-b2f0-53906c4c6f70",
+          "402ca9f8-e176-403d-bdde-e30925e7aed6"
+        ]
+      }
+    },
+    {
+      "id": "ed43d2df-fc15-4468-a8fd-133e02bcdad3",
+      "data": {
+        "gender": "M",
+        "first name": "Andrzej",
+        "last name": "Zabłotny",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "c8c46180-616c-4644-95ca-4fb155766022"
+        ],
+        "children": [
+          "b4704402-023d-4343-9073-b05b53fde986",
+          "50e5d6f2-83e7-400c-a07f-20f8bf21da21",
+          "54366572-dbcb-43b8-b2f0-53906c4c6f70",
+          "402ca9f8-e176-403d-bdde-e30925e7aed6"
+        ]
+      }
+    },
+    {
+      "id": "b4704402-023d-4343-9073-b05b53fde986",
+      "data": {
+        "gender": "F",
+        "first name": "Edyta",
+        "last name": "Gajewska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Zabłotna"
+      },
+      "rels": {
+        "mother": "c8c46180-616c-4644-95ca-4fb155766022",
+        "father": "ed43d2df-fc15-4468-a8fd-133e02bcdad3",
+        "spouses": [
+          "e3982086-b4cd-49d6-b387-cdce6d076782"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "e3982086-b4cd-49d6-b387-cdce6d076782",
+      "data": {
+        "gender": "M",
+        "first name": "Rafał",
+        "last name": "Gajewski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "b4704402-023d-4343-9073-b05b53fde986"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "50e5d6f2-83e7-400c-a07f-20f8bf21da21",
+      "data": {
+        "gender": "F",
+        "first name": "Monika",
+        "last name": "Józefowicz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Zabłotna"
+      },
+      "rels": {
+        "mother": "c8c46180-616c-4644-95ca-4fb155766022",
+        "father": "ed43d2df-fc15-4468-a8fd-133e02bcdad3",
+        "spouses": [
+          "44dda075-beda-4eac-8af1-e3db1e7ffd52"
+        ],
+        "children": [
+          "80239682-2018-4eaa-842b-937621e54651",
+          "04bedb35-85e4-4289-91f0-944a234c171d"
+        ]
+      }
+    },
+    {
+      "id": "44dda075-beda-4eac-8af1-e3db1e7ffd52",
+      "data": {
+        "gender": "M",
+        "first name": "Kazimierz",
+        "last name": "Jożefowicz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "50e5d6f2-83e7-400c-a07f-20f8bf21da21"
+        ],
+        "children": [
+          "80239682-2018-4eaa-842b-937621e54651",
+          "04bedb35-85e4-4289-91f0-944a234c171d"
+        ]
+      }
+    },
+    {
+      "id": "80239682-2018-4eaa-842b-937621e54651",
+      "data": {
+        "gender": "M",
+        "first name": "Antoni",
+        "last name": "Jożefowicz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "44dda075-beda-4eac-8af1-e3db1e7ffd52",
+        "mother": "50e5d6f2-83e7-400c-a07f-20f8bf21da21"
+      }
+    },
+    {
+      "id": "04bedb35-85e4-4289-91f0-944a234c171d",
+      "data": {
+        "gender": "M",
+        "first name": "Adam",
+        "last name": "Jożefowicz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "44dda075-beda-4eac-8af1-e3db1e7ffd52",
+        "mother": "50e5d6f2-83e7-400c-a07f-20f8bf21da21"
+      }
+    },
+    {
+      "id": "54366572-dbcb-43b8-b2f0-53906c4c6f70",
+      "data": {
+        "gender": "F",
+        "first name": "Agnieszka",
+        "last name": "Jelonek",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Zabłotna"
+      },
+      "rels": {
+        "mother": "c8c46180-616c-4644-95ca-4fb155766022",
+        "father": "ed43d2df-fc15-4468-a8fd-133e02bcdad3",
+        "spouses": [
+          "c835ed1a-9539-4de3-baf2-7897cd3a2b75"
+        ],
+        "children": [
+          "a1007f3a-479d-4c72-9133-68aea266faee"
+        ]
+      }
+    },
+    {
+      "id": "c835ed1a-9539-4de3-baf2-7897cd3a2b75",
+      "data": {
+        "gender": "M",
+        "first name": "Mariusz",
+        "last name": "Jelonek",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "54366572-dbcb-43b8-b2f0-53906c4c6f70"
+        ],
+        "children": [
+          "a1007f3a-479d-4c72-9133-68aea266faee"
+        ]
+      }
+    },
+    {
+      "id": "a1007f3a-479d-4c72-9133-68aea266faee",
+      "data": {
+        "gender": "M",
+        "first name": "Szymon ",
+        "last name": "Jelonek",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "c835ed1a-9539-4de3-baf2-7897cd3a2b75",
+        "mother": "54366572-dbcb-43b8-b2f0-53906c4c6f70"
+      }
+    },
+    {
+      "id": "402ca9f8-e176-403d-bdde-e30925e7aed6",
+      "data": {
+        "gender": "F",
+        "first name": "Joanna",
+        "last name": "Zabłotna",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "c8c46180-616c-4644-95ca-4fb155766022",
+        "father": "ed43d2df-fc15-4468-a8fd-133e02bcdad3"
+      }
+    },
+    {
+      "id": "d8403fe5-7614-4745-a08d-70d8a320502d",
+      "data": {
+        "gender": "M",
+        "first name": "Rafał",
+        "last name": "Krezymon",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "5720670e-8046-4350-b1b0-2ee530d8a59e",
+        "mother": "53e5ae20-759b-4d7f-9a20-23e15602fc79",
+        "spouses": [
+          "614ee76e-a260-444e-a343-12828a5d8ccd"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "614ee76e-a260-444e-a343-12828a5d8ccd",
+      "data": {
+        "gender": "F",
+        "first name": "Barbara",
+        "last name": "Krezymon",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Wojda"
+      },
+      "rels": {
+        "spouses": [
+          "d8403fe5-7614-4745-a08d-70d8a320502d"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "168d50e4-2e6b-4490-91fa-391edf46e51f",
+      "data": {
+        "gender": "F",
+        "first name": "Honorata",
+        "last name": "Groszkowska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Kryzymon"
+      },
+      "rels": {
+        "mother": "7d1419f5-ee37-4788-8a3d-3f5f96632b23",
+        "father": "3e17005a-a8ba-4d07-b807-a8e77e5e1805",
+        "spouses": [
+          "b0fb417f-8ef4-4f5a-9baf-ee19223b4105"
+        ],
+        "children": [
+          "15326dbb-4abc-4988-b78a-c26972751a14",
+          "7aaa3e75-51d8-4cb2-9886-10204efa4a69"
+        ]
+      }
+    },
+    {
+      "id": "b0fb417f-8ef4-4f5a-9baf-ee19223b4105",
+      "data": {
+        "gender": "M",
+        "first name": "Mieczysław",
+        "last name": "Groszkowski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "16.08.2020",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "Elbląg",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "168d50e4-2e6b-4490-91fa-391edf46e51f"
+        ],
+        "children": [
+          "15326dbb-4abc-4988-b78a-c26972751a14",
+          "7aaa3e75-51d8-4cb2-9886-10204efa4a69"
+        ]
+      }
+    },
+    {
+      "id": "15326dbb-4abc-4988-b78a-c26972751a14",
+      "data": {
+        "gender": "F",
+        "first name": "Elżbieta",
+        "last name": "Groszkowska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "168d50e4-2e6b-4490-91fa-391edf46e51f",
+        "father": "b0fb417f-8ef4-4f5a-9baf-ee19223b4105"
+      }
+    },
+    {
+      "id": "7aaa3e75-51d8-4cb2-9886-10204efa4a69",
+      "data": {
+        "gender": "F",
+        "first name": "Anna",
+        "last name": "Groszkowska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "brak nazwy"
+      },
+      "rels": {
+        "mother": "168d50e4-2e6b-4490-91fa-391edf46e51f",
+        "father": "b0fb417f-8ef4-4f5a-9baf-ee19223b4105",
+        "spouses": [
+          "9a0b60ad-b03c-401a-b7ae-0e550f0305c6"
+        ],
+        "children": [
+          "79dd8233-9957-43ac-ad77-8a0e1e568a6b"
+        ]
+      }
+    },
+    {
+      "id": "9a0b60ad-b03c-401a-b7ae-0e550f0305c6",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Groszkowski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "7aaa3e75-51d8-4cb2-9886-10204efa4a69"
+        ],
+        "children": [
+          "79dd8233-9957-43ac-ad77-8a0e1e568a6b"
+        ]
+      }
+    },
+    {
+      "id": "79dd8233-9957-43ac-ad77-8a0e1e568a6b",
+      "data": {
+        "gender": "M",
+        "first name": "Michał",
+        "last name": "",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "9a0b60ad-b03c-401a-b7ae-0e550f0305c6",
+        "mother": "7aaa3e75-51d8-4cb2-9886-10204efa4a69"
+      }
+    },
+    {
+      "id": "cd69a3bf-2686-46ff-a4cf-3aeb6e0485ed",
+      "data": {
+        "gender": "M",
+        "first name": "Władywsław",
+        "last name": "Korzen",
+        "avatar": "",
+        "birth year": "06.03.1926",
+        "death year": "09.03.2017",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Lorki",
+        "death place": "Elbląg",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "0",
+        "mother": "a1f491c4-22fc-4b0c-91a0-dd4b0597f8b2",
+        "spouses": [
+          "cad0e743-8050-46b1-961a-4d92e51424ea"
+        ],
+        "children": [
+          "6e1eb22d-d7b6-4fc6-a97d-4d21918ec379"
+        ]
+      }
+    },
+    {
+      "id": "cad0e743-8050-46b1-961a-4d92e51424ea",
+      "data": {
+        "gender": "F",
+        "first name": "Helena ",
+        "last name": "Korzeń",
+        "avatar": "",
+        "birth year": "10.06.1930",
+        "death year": "21.11.2016",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Góry",
+        "death place": "Elbląg",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Zajączkowska"
+      },
+      "rels": {
+        "spouses": [
+          "cd69a3bf-2686-46ff-a4cf-3aeb6e0485ed"
+        ],
+        "children": [
+          "6e1eb22d-d7b6-4fc6-a97d-4d21918ec379"
+        ]
+      }
+    },
+    {
+      "id": "6e1eb22d-d7b6-4fc6-a97d-4d21918ec379",
+      "data": {
+        "gender": "F",
+        "first name": "Natalia",
+        "last name": "Graczyk",
+        "avatar": "",
+        "birth year": "23.03.1952",
+        "death year": "25.02.2011",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Elbląg",
+        "death place": "Elbląg",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Korzeń"
+      },
+      "rels": {
+        "mother": "cad0e743-8050-46b1-961a-4d92e51424ea",
+        "father": "cd69a3bf-2686-46ff-a4cf-3aeb6e0485ed",
+        "spouses": [
+          "ffbb315f-f464-4a4b-bbc4-2f2af2fb8d01"
+        ],
+        "children": [
+          "ef432df4-d01d-4438-8376-69e29e2b6878",
+          "a3e61df7-14ea-4f89-863a-de1fa7db14d2"
+        ]
+      }
+    },
+    {
+      "id": "ffbb315f-f464-4a4b-bbc4-2f2af2fb8d01",
+      "data": {
+        "gender": "M",
+        "first name": "PIotr",
+        "last name": "Graczyk",
+        "avatar": "",
+        "birth year": "06.10.1948",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Zimolza",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "6e1eb22d-d7b6-4fc6-a97d-4d21918ec379"
+        ],
+        "children": [
+          "ef432df4-d01d-4438-8376-69e29e2b6878",
+          "a3e61df7-14ea-4f89-863a-de1fa7db14d2"
+        ]
+      }
+    },
+    {
+      "id": "ef432df4-d01d-4438-8376-69e29e2b6878",
+      "data": {
+        "gender": "M",
+        "first name": "Tomasz",
+        "last name": "Graczyk",
+        "avatar": "",
+        "birth year": "14.04.1976",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Elbląg",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "ffbb315f-f464-4a4b-bbc4-2f2af2fb8d01",
+        "mother": "6e1eb22d-d7b6-4fc6-a97d-4d21918ec379",
+        "spouses": [
+          "81ee38a4-2f98-4567-b59f-586f502dc652"
+        ],
+        "children": [
+          "27884c16-87db-4b7f-bbb4-00777e7cd7a1",
+          "b1de6c1f-9aec-4a91-aafe-10571bfab02e"
+        ]
+      }
+    },
+    {
+      "id": "81ee38a4-2f98-4567-b59f-586f502dc652",
+      "data": {
+        "gender": "F",
+        "first name": "Angelika",
+        "last name": "Graczyk",
+        "avatar": "",
+        "birth year": "26.01.1976",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Markowska"
+      },
+      "rels": {
+        "spouses": [
+          "ef432df4-d01d-4438-8376-69e29e2b6878"
+        ],
+        "children": [
+          "27884c16-87db-4b7f-bbb4-00777e7cd7a1",
+          "b1de6c1f-9aec-4a91-aafe-10571bfab02e"
+        ]
+      }
+    },
+    {
+      "id": "27884c16-87db-4b7f-bbb4-00777e7cd7a1",
+      "data": {
+        "gender": "F",
+        "first name": "Gabriela",
+        "last name": "Graczyk",
+        "avatar": "",
+        "birth year": "21.11.2008",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Elbląg",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "81ee38a4-2f98-4567-b59f-586f502dc652",
+        "father": "ef432df4-d01d-4438-8376-69e29e2b6878"
+      }
+    },
+    {
+      "id": "b1de6c1f-9aec-4a91-aafe-10571bfab02e",
+      "data": {
+        "gender": "F",
+        "first name": "Helena",
+        "last name": "Graczyk",
+        "avatar": "",
+        "birth year": "20.10.2012",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Elbląg",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "81ee38a4-2f98-4567-b59f-586f502dc652",
+        "father": "ef432df4-d01d-4438-8376-69e29e2b6878"
+      }
+    },
+    {
+      "id": "a3e61df7-14ea-4f89-863a-de1fa7db14d2",
+      "data": {
+        "gender": "F",
+        "first name": "Jolanta",
+        "last name": "Kucej",
+        "avatar": "",
+        "birth year": "02.11.1981",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Graczyk"
+      },
+      "rels": {
+        "mother": "6e1eb22d-d7b6-4fc6-a97d-4d21918ec379",
+        "father": "ffbb315f-f464-4a4b-bbc4-2f2af2fb8d01",
+        "spouses": [
+          "4195d322-7a7f-4514-9ed4-2c6ca2af8a3a"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "4195d322-7a7f-4514-9ed4-2c6ca2af8a3a",
+      "data": {
+        "gender": "M",
+        "first name": "Tomasz",
+        "last name": "Kucej",
+        "avatar": "",
+        "birth year": "26.08.1981",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "Elbląg",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "a3e61df7-14ea-4f89-863a-de1fa7db14d2"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "379b58b7-c5b3-4b73-95ca-d05df1164f94",
+      "data": {
+        "gender": "M",
+        "first name": "Jacek",
+        "last name": "Kozłowski",
+        "avatar": "/img/jacekkozlowski.ico",
+        "birth year": "",
+        "death year": "",
+        "occupation": "Sztudiyrowoł Informatyka we Wydział Elektroniki i Technik Informacyjnych Politechniki Warszawskiej Sztartło we 1996",
+        "location": "Warszawa",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/kozlowskijac/about_life_events",
+        "maiden": "",
+        "notes": ""
+      },
+      "rels": {
+        "spouses": [
+          "f6e91663-d953-4891-843d-a223e91c3675"
+        ],
+        "children": [
+          "1d66bd78-f7de-45ee-9615-988d063c380f"
+        ]
+      }
+    },
+    {
+      "id": "0b03bb30-c705-4804-85a8-b8b56ef1b94c",
+      "data": {
+        "gender": "F",
+        "first name": "Maria",
+        "last name": "Korzeń",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "https://www.facebook.com/maria.korzen.142",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "726f74e0-a7f3-4d83-9321-f12f8bba3f69"
+        ],
+        "children": [
+          "ba2411a8-6e68-48d4-a2dd-7f340fbedf79",
+          "377ab210-a68f-497a-95d8-a0d2a990e656",
+          "27890259-e59f-420d-b6ef-c81a6035bb31"
+        ]
+      }
+    },
+    {
+      "id": "377ab210-a68f-497a-95d8-a0d2a990e656",
+      "data": {
+        "gender": "M",
+        "first name": "Mariusz",
+        "last name": "Korzeń",
+
+        "avatar": "",
+        "birth year": "23.10.1980",
+        "death year": "",
+        "occupation": "",
+        "location": "Grodziczno",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "726f74e0-a7f3-4d83-9321-f12f8bba3f69",
+        "mother": "0b03bb30-c705-4804-85a8-b8b56ef1b94c",
+        "spouses": [
+          "abf39464-4bd2-4a2c-a5ef-44d36e5e8954"
+        ],
+        "children": [
+          "e342d73b-d168-4289-aff9-8b183736f773"
+        ]
+      }
+    },
+    {
+      "id": "abf39464-4bd2-4a2c-a5ef-44d36e5e8954",
+      "data": {
+        "gender": "F",
+        "first name": "Justyna",
+        "last name": "Korzeń",
+        "avatar": "",
+        "birth year": "15.04.1981",
+        "death year": "",
+        "occupation": "",
+        "location": "Grodziczno",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "377ab210-a68f-497a-95d8-a0d2a990e656"
+        ],
+        "children": [
+          "e342d73b-d168-4289-aff9-8b183736f773"
+        ]
+      }
+    },
+    {
+      "id": "e342d73b-d168-4289-aff9-8b183736f773",
+      "data": {
+        "gender": "F",
+        "first name": "",
+        "last name": "Korzeń",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "abf39464-4bd2-4a2c-a5ef-44d36e5e8954",
+        "father": "377ab210-a68f-497a-95d8-a0d2a990e656"
+      }
+    },
+    {
+      "id": "27890259-e59f-420d-b6ef-c81a6035bb31",
+      "data": {
+        "gender": "F",
+        "first name": "Anna",
+        "last name": "Lempke",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Korzeń"
+      },
+      "rels": {
+        "mother": "0b03bb30-c705-4804-85a8-b8b56ef1b94c",
+        "father": "726f74e0-a7f3-4d83-9321-f12f8bba3f69",
+        "spouses": [
+          "50d1fdc9-28fa-41cb-ae44-6f7e5f49cbfa"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "50d1fdc9-28fa-41cb-ae44-6f7e5f49cbfa",
+      "data": {
+        "gender": "M",
+        "first name": "Jacek",
+        "last name": "Lempke",
+        "avatar": "",
+        "birth year": "13.12.1982",
+        "death year": "",
+        "occupation": "",
+        "location": "Lubawa",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "27890259-e59f-420d-b6ef-c81a6035bb31"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "211d06e6-79d0-4b37-8566-c58f09695e9d",
+      "data": {
+        "gender": "M",
+        "first name": "Adam",
+        "last name": "Jurkiewicz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "Lubawa",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "ba2411a8-6e68-48d4-a2dd-7f340fbedf79"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "2ab60bc8-4d92-451b-9836-6f1fe021cf73",
+      "data": {
+        "gender": "F",
+        "first name": "Elżbieta",
+        "last name": "Kopkiewicz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "c207343f-3cd8-4564-8a7c-92683c714fe3",
+        "father": "c526e079-346c-4b37-a70c-09d3b06316c8",
+        "spouses": [
+          "5e2a6e65-7695-487a-a5d9-6223d90ec70f"
+        ],
+        "children": [
+          "560aca5b-695d-4a9d-8d78-b254a2b0e507",
+          "417ea06f-c89f-4e3b-ab86-67a71e93b004"
+        ]
+      }
+    },
+    {
+      "id": "5e2a6e65-7695-487a-a5d9-6223d90ec70f",
+      "data": {
+        "gender": "M",
+        "first name": "Sławek",
+        "last name": "Kopkiewicz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "2ab60bc8-4d92-451b-9836-6f1fe021cf73"
+        ],
+        "children": [
+          "560aca5b-695d-4a9d-8d78-b254a2b0e507",
+          "417ea06f-c89f-4e3b-ab86-67a71e93b004"
+        ]
+      }
+    },
+    {
+      "id": "560aca5b-695d-4a9d-8d78-b254a2b0e507",
+      "data": {
+        "gender": "F",
+        "first name": "Paulina",
+        "last name": "Szymańska",
+        "avatar": "/img/pauliankopkiewicz.ico",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/paulina.kopkiewicz",
+        "notes": "",
+        "maiden": "Kopkiewicz"
+      },
+      "rels": {
+        "mother": "2ab60bc8-4d92-451b-9836-6f1fe021cf73",
+        "father": "5e2a6e65-7695-487a-a5d9-6223d90ec70f"
+      }
+    },
+    {
+      "id": "417ea06f-c89f-4e3b-ab86-67a71e93b004",
+      "data": {
+        "gender": "F",
+        "first name": "",
+        "last name": "Kopkiewicz",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "2ab60bc8-4d92-451b-9836-6f1fe021cf73",
+        "father": "5e2a6e65-7695-487a-a5d9-6223d90ec70f"
+      }
+    },
+    {
+      "id": "bb037b16-34b9-48f6-94ad-f04d40f90008",
+      "data": {
+        "gender": "F",
+        "first name": "Ewa",
+        "last name": "Łożyńska",
+        "avatar": "/img/ewalozynska.ico",
+        "birth year": "11.10.1975",
+        "death year": "",
+        "occupation": "",
+        "location": "Mroczno",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/profile.php?id=100064907517287&sk=about_contact_and_basic_info",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "c207343f-3cd8-4564-8a7c-92683c714fe3",
+        "father": "c526e079-346c-4b37-a70c-09d3b06316c8",
+        "spouses": [
+          "2edb858e-587c-46ce-b318-1c6b9492fedd"
+        ],
+        "children": [
+          "7dec9998-4c92-4692-9445-aaccc62af060",
+          "09811f0c-71bd-4998-9ee8-3ff843d073f2",
+          "e4078c7d-b0f5-4ef1-a47a-510e4c276e56",
+          "7be7a662-23f5-4107-91e9-bd6142bdb03e"
+        ]
+      }
+    },
+    {
+      "id": "2edb858e-587c-46ce-b318-1c6b9492fedd",
+      "data": {
+        "gender": "M",
+        "first name": "Tomasz",
+        "last name": "Łózynksi",
+        "avatar": "/img/ewalozynska.ico",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "bb037b16-34b9-48f6-94ad-f04d40f90008"
+        ],
+        "children": [
+          "7dec9998-4c92-4692-9445-aaccc62af060",
+          "09811f0c-71bd-4998-9ee8-3ff843d073f2",
+          "e4078c7d-b0f5-4ef1-a47a-510e4c276e56",
+          "7be7a662-23f5-4107-91e9-bd6142bdb03e"
+        ]
+      }
+    },
+    {
+      "id": "7dec9998-4c92-4692-9445-aaccc62af060",
+      "data": {
+        "gender": "F",
+        "first name": "Milena",
+        "last name": "Majdan",
+        "avatar": "/img/milenamajdan.ico",
+        "birth year": "20.06.2000",
+        "death year": "",
+        "occupation": "",
+        "location": "Gdansk",
+        "education": "",
+        "nationality": "",
+        "birth place": "Mroczno",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/search/top?q=milena%20majdan",
+        "notes": "Uniwersytet WSB Merito Gdańsk - wcześniej Wyższa Szkoła Bankowa",
+        "maiden": "Łóżynska"
+      },
+      "rels": {
+        "father": "2edb858e-587c-46ce-b318-1c6b9492fedd",
+        "mother": "bb037b16-34b9-48f6-94ad-f04d40f90008",
+        "spouses": [
+          "b79daf26-4356-463b-a563-119e1cac753f"
+        ],
+        "children": [
+          "41ef77a6-64c8-4d4f-b13b-8accdcab3274"
+        ]
+      }
+    },
+    {
+      "id": "b79daf26-4356-463b-a563-119e1cac753f",
+      "data": {
+        "gender": "M",
+        "first name": "Karol",
+        "last name": "Majdan",
+        "avatar": "/img/karolmajdan.ico",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "7dec9998-4c92-4692-9445-aaccc62af060"
+        ],
+        "children": [
+          "41ef77a6-64c8-4d4f-b13b-8accdcab3274"
+        ]
+      }
+    },
+    {
+      "id": "41ef77a6-64c8-4d4f-b13b-8accdcab3274",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Majdan",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "b79daf26-4356-463b-a563-119e1cac753f",
+        "mother": "7dec9998-4c92-4692-9445-aaccc62af060"
+      }
+    },
+    {
+      "id": "09811f0c-71bd-4998-9ee8-3ff843d073f2",
+      "data": {
+        "gender": "F",
+        "first name": "Angelika",
+        "last name": "Łożyńska",
+        "avatar": "/img/angelikalozynska.ico",
+        "birth year": "01.08.2006",
+        "death year": "",
+        "occupation": "",
+        "location": "Mroczno",
+        "education": "Fryzjer",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/profile.php?id=100058087744927",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "bb037b16-34b9-48f6-94ad-f04d40f90008",
+        "father": "2edb858e-587c-46ce-b318-1c6b9492fedd"
+      }
+    },
+    {
+      "id": "e4078c7d-b0f5-4ef1-a47a-510e4c276e56",
+      "data": {
+        "gender": "F",
+        "first name": "Aleksandra",
+        "last name": "Łózynksa",
+        "avatar": "/img/aleksandralozynska.ico",
+        "birth year": "11.02.2005",
+        "death year": "",
+        "occupation": "",
+        "location": "Mroczno",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "bb037b16-34b9-48f6-94ad-f04d40f90008",
+        "father": "2edb858e-587c-46ce-b318-1c6b9492fedd"
+      }
+    },
+    {
+      "id": "7be7a662-23f5-4107-91e9-bd6142bdb03e",
+      "data": {
+        "gender": "M",
+        "first name": "Szymon",
+        "last name": "Łózynksi",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "2edb858e-587c-46ce-b318-1c6b9492fedd",
+        "mother": "bb037b16-34b9-48f6-94ad-f04d40f90008"
+      }
+    },
+    {
+      "id": "a83e1031-8faf-4498-89cd-6ce6bee846e5",
+      "data": {
+        "gender": "M",
+        "first name": "Marek",
+        "last name": "Ubranski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "Ostroda",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "c526e079-346c-4b37-a70c-09d3b06316c8",
+        "mother": "c207343f-3cd8-4564-8a7c-92683c714fe3",
+        "spouses": [
+          "08deb3a2-21dd-45f2-9e35-f8d80286b7e2"
+        ],
+        "children": [
+          "da0ebc42-c7e8-48bc-b921-1ad074c4101a",
+          "37b840a6-ca7c-4109-b867-3152d61c2880"
+        ]
+      }
+    },
+    {
+      "id": "08deb3a2-21dd-45f2-9e35-f8d80286b7e2",
+      "data": {
+        "gender": "F",
+        "first name": "Anna",
+        "last name": "Ubranska",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "a83e1031-8faf-4498-89cd-6ce6bee846e5"
+        ],
+        "children": [
+          "da0ebc42-c7e8-48bc-b921-1ad074c4101a",
+          "37b840a6-ca7c-4109-b867-3152d61c2880"
+        ]
+      }
+    },
+    {
+      "id": "da0ebc42-c7e8-48bc-b921-1ad074c4101a",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Ubranski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "a83e1031-8faf-4498-89cd-6ce6bee846e5",
+        "mother": "08deb3a2-21dd-45f2-9e35-f8d80286b7e2"
+      }
+    },
+    {
+      "id": "37b840a6-ca7c-4109-b867-3152d61c2880",
+      "data": {
+        "gender": "F",
+        "first name": "",
+        "last name": "Ubranski",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "08deb3a2-21dd-45f2-9e35-f8d80286b7e2",
+        "father": "a83e1031-8faf-4498-89cd-6ce6bee846e5"
+      }
+    },
+    {
+      "id": "7889eaa4-66cd-4f69-a07e-94ea7d9f4399",
+      "data": {
+        "gender": "M",
+        "first name": "Grzegorz",
+        "last name": "Urbański",
+        "avatar": "/img/grzegorzurbanski.ico",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "02.01.2022",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "c526e079-346c-4b37-a70c-09d3b06316c8",
+        "mother": "c207343f-3cd8-4564-8a7c-92683c714fe3",
+        "spouses": [
+          "c4684fe5-98fe-422a-9529-6482118b020f",
+          "e850131f-a618-4eba-9b62-92240d51e44a"
+        ],
+        "children": [
+          "359a948f-60d7-4016-b670-dd26e13333d5"
+        ]
+      }
+    },
+    {
+      "id": "c4684fe5-98fe-422a-9529-6482118b020f",
+      "data": {
+        "gender": "F",
+        "first name": "Danuta",
+        "last name": "",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "7889eaa4-66cd-4f69-a07e-94ea7d9f4399"
+        ],
+        "children": [
+          "359a948f-60d7-4016-b670-dd26e13333d5"
+        ]
+      }
+    },
+    {
+      "id": "359a948f-60d7-4016-b670-dd26e13333d5",
+      "data": {
+        "gender": "M",
+        "first name": "Kacper",
+        "last name": "Ubranski",
+        "avatar": "/img/kacperurbanski.ico",
+        "birth year": "06.10.1994",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "7889eaa4-66cd-4f69-a07e-94ea7d9f4399",
+        "mother": "c4684fe5-98fe-422a-9529-6482118b020f"
+      }
+    },
+    {
+      "id": "e850131f-a618-4eba-9b62-92240d51e44a",
+      "data": {
+        "gender": "F",
+        "first name": "Monika",
+        "last name": "Urbańska",
+        "avatar": "/img/monikaurbanska.ico",
+        "birth year": "20.02.1xxx",
+        "death year": "",
+        "occupation": "",
+        "location": "Swiety Gaj",
+        "education": "Szkolyła sie w: Zespół szkół im. Cypriana Kamila Norwida w Dzierzgoniu",
+        "nationality": "Poland",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/monika.wangin.9",
+        "notes": "",
+        "maiden": "??"
+      },
+      "rels": {
+        "spouses": [
+          "7889eaa4-66cd-4f69-a07e-94ea7d9f4399"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "f9c5cae5-d20a-457c-9236-711aa4412dbd",
+      "data": {
+        "gender": "F",
+        "first name": "Anna",
+        "last name": "Korzeń",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": "Grubalska"
+      },
+      "rels": {
+        "spouses": [
+          "92820ef3-25e9-4111-a38b-a7b4cbcd70f4"
+        ],
+        "children": [
+          "4642400a-9b21-4df6-9d3d-a01760019ba5",
+          "d5be869a-f912-4236-8dd1-8c4932d1ada1"
+        ]
+      }
+    },
+    {
+      "id": "4642400a-9b21-4df6-9d3d-a01760019ba5",
+      "data": {
+        "gender": "F",
+        "first name": "Karolina",
+        "last name": "Kaczorowska",
+        "avatar": "/img/karolinakorzen.ico",
+        "birth year": "01.01.2000",
+        "death year": "",
+        "occupation": "",
+        "location": "Lubawa",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": " Słup",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/karolina.korzen.33",
+        "notes": "",
+        "maiden": "Korzen"
+      },
+      "rels": {
+        "mother": "f9c5cae5-d20a-457c-9236-711aa4412dbd",
+        "father": "92820ef3-25e9-4111-a38b-a7b4cbcd70f4"
+      }
+    },
+    {
+      "id": "d5be869a-f912-4236-8dd1-8c4932d1ada1",
+      "data": {
+        "gender": "F",
+        "first name": "Justyna",
+        "last name": "Toffel",
+        "avatar": "/img/justynatoffel.ico",
+        "birth year": "02.06.1988",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/justyna.toffel.5/about_overview",
+        "notes": "",
+        "maiden": "Korzeń"
+      },
+      "rels": {
+        "mother": "f9c5cae5-d20a-457c-9236-711aa4412dbd",
+        "father": "92820ef3-25e9-4111-a38b-a7b4cbcd70f4"
+      }
+    },
+    {
+      "id": "50c761ec-5e08-4a62-8737-d46c197b8b2e",
+      "data": {
+        "gender": "F",
+        "first name": "Barbara",
+        "last name": "Wieczorek",
+        "avatar": "/img/barbarawieczorek.ico",
+        "birth year": "16.02.1977",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "https://www.facebook.com/barbara.wieczorek.1042"
+      },
+      "rels": {
+        "father": "9834d597-663c-4629-8a37-c9415fd18376",
+        "spouses": [
+          "1d450a81-b8ce-40bb-bfcc-eea60f083056"
+        ],
+        "children": [
+          "5085de1d-441a-4b1b-b0eb-3e943600b051",
+          "75010a0d-becb-4b82-817c-caa4ebb3a677",
+          "ea490671-6816-4585-a00c-b8b942ed6efa"
+        ],
+        "mother": "18f25efa-d056-422a-9929-31c266a927f6"
+      }
+    },
+    {
+      "id": "1d450a81-b8ce-40bb-bfcc-eea60f083056",
+      "data": {
+        "gender": "M",
+        "first name": "Leszek",
+        "last name": "Wieczorek",
+        "avatar": "/img/leszekwieczorek.ico",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "50c761ec-5e08-4a62-8737-d46c197b8b2e"
+        ],
+        "children": [
+          "5085de1d-441a-4b1b-b0eb-3e943600b051",
+          "75010a0d-becb-4b82-817c-caa4ebb3a677",
+          "ea490671-6816-4585-a00c-b8b942ed6efa"
+        ]
+      }
+    },
+    {
+      "id": "5085de1d-441a-4b1b-b0eb-3e943600b051",
+      "data": {
+        "gender": "M",
+        "first name": "Michał",
+        "last name": "Wieczorek",
+        "avatar": "/img/michalwieczorek.ico",
+        "birth year": "27.12.1997",
+        "death year": "",
+        "occupation": "",
+        "location": "Mroczno 178",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/profile.php?id=100003919513738&sk=about_contact_and_basic_info",
+        "notes": "Zakład Taplicerski Michał Wieczorek",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "1d450a81-b8ce-40bb-bfcc-eea60f083056",
+        "mother": "50c761ec-5e08-4a62-8737-d46c197b8b2e"
+      }
+    },
+    {
+      "id": "75010a0d-becb-4b82-817c-caa4ebb3a677",
+      "data": {
+        "gender": "F",
+        "first name": "Martyna",
+        "last name": "Wieczorek",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "50c761ec-5e08-4a62-8737-d46c197b8b2e",
+        "father": "1d450a81-b8ce-40bb-bfcc-eea60f083056"
+      }
+    },
+    {
+      "id": "ea490671-6816-4585-a00c-b8b942ed6efa",
+      "data": {
+        "gender": "M",
+        "first name": "Kacper",
+        "last name": "Wieczorek",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "1d450a81-b8ce-40bb-bfcc-eea60f083056",
+        "mother": "50c761ec-5e08-4a62-8737-d46c197b8b2e"
+      }
+    },
+    {
+      "id": "9916e823-3cb9-47e3-824e-c327365b2100",
+      "data": {
+        "gender": "M",
+        "first name": "Zbigniew ",
+        "last name": "Korzeń",
+        "avatar": "/img/zbigniewkorzen.ico",
+        "birth year": "26.09.1974",
+        "death year": "",
+        "occupation": "",
+        "location": "Nowe Miasto Lubawskie",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "16.09.2000",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/profile.php?id=100090197551058",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "9834d597-663c-4629-8a37-c9415fd18376",
+        "spouses": [
+          "1986afcb-8ffe-4c7e-82d7-240ac690b75c"
+        ],
+        "children": [
+          "0db2d021-680f-4ad4-b426-3012aae24248",
+          "4bbcd8fc-723f-4761-9fc6-929535629bcc",
+          "c91009a7-f92d-4e4f-840f-880c6c56fdc7"
+        ],
+        "mother": "18f25efa-d056-422a-9929-31c266a927f6"
+      }
+    },
+    {
+      "id": "1986afcb-8ffe-4c7e-82d7-240ac690b75c",
+      "data": {
+        "gender": "F",
+        "first name": "Bożena",
+        "last name": "Korzeń",
+        "avatar": "/img/bozenakorzen.ico",
+        "birth year": "19.11.1977",
+        "death year": "",
+        "occupation": "",
+        "location": "Nowe Miasto Lubawskie",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "16.09.2000",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/profile.php?id=100058087744927",
+        "notes": "",
+        "maiden": "??"
+      },
+      "rels": {
+        "spouses": [
+          "9916e823-3cb9-47e3-824e-c327365b2100"
+        ],
+        "children": [
+          "0db2d021-680f-4ad4-b426-3012aae24248",
+          "4bbcd8fc-723f-4761-9fc6-929535629bcc",
+          "c91009a7-f92d-4e4f-840f-880c6c56fdc7"
+        ]
+      }
+    },
+    {
+      "id": "0db2d021-680f-4ad4-b426-3012aae24248",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Korzeń",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "9916e823-3cb9-47e3-824e-c327365b2100",
+        "mother": "1986afcb-8ffe-4c7e-82d7-240ac690b75c"
+      }
+    },
+    {
+      "id": "4bbcd8fc-723f-4761-9fc6-929535629bcc",
+      "data": {
+        "gender": "F",
+        "first name": "Natalia",
+        "last name": "Korzeń",
+        "avatar": "/img/nataliakorzen.ico",
+        "birth year": "03.06.2006",
+        "death year": "",
+        "occupation": "",
+        "location": "Nowe Miasto Lubawskie",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/natalia.korzen.98",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "mother": "1986afcb-8ffe-4c7e-82d7-240ac690b75c",
+        "father": "9916e823-3cb9-47e3-824e-c327365b2100"
+      }
+    },
+    {
+      "id": "c91009a7-f92d-4e4f-840f-880c6c56fdc7",
+      "data": {
+        "gender": "M",
+        "first name": "",
+        "last name": "Korzeń",
+        "avatar": "",
+        "birth year": "",
+        "death year": "",
+        "occupation": "",
+        "location": "",
+        "education": "",
+        "nationality": "",
+        "birth place": "",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "9916e823-3cb9-47e3-824e-c327365b2100",
+        "mother": "1986afcb-8ffe-4c7e-82d7-240ac690b75c"
+      }
+    },
+    {
+      "id": "7342f5c2-281b-4db1-8e87-5386f27f7ad0",
+      "data": {
+        "gender": "M",
+        "first name": "Piotr",
+        "last name": "Korzeń",
+        "avatar": "/img/piotrkorzen.ico",
+        "birth year": "23.03.1981",
+        "death year": "",
+        "occupation": "",
+        "location": "Ełk",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Nowe Miasto Lubawskie",
+        "death place": "",
+        "marriage date": "18.06.2005",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/profile.php?id=100009177269809&sk=about",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "father": "9834d597-663c-4629-8a37-c9415fd18376",
+        "spouses": [
+          "273afe34-a1ea-4feb-a570-5e8c5e2ac936"
+        ],
+        "children": [],
+        "mother": "18f25efa-d056-422a-9929-31c266a927f6"
+      }
+    },
+    {
+      "id": "273afe34-a1ea-4feb-a570-5e8c5e2ac936",
+      "data": {
+        "gender": "F",
+        "first name": "Anna",
+        "last name": "Korzeń",
+        "avatar": "/img/annakorzen.ico",
+        "birth year": "06.05.1979",
+        "death year": "",
+        "occupation": "",
+        "location": "EłK",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Orzysz",
+        "death place": "",
+        "marriage date": "18.06.2005",
+        "email": "",
+        "phone": "",
+        "address": "https://www.facebook.com/anna.korzen.12/about_contact_and_basic_info",
+        "notes": "",
+        "maiden": "?"
+      },
+      "rels": {
+        "spouses": [
+          "7342f5c2-281b-4db1-8e87-5386f27f7ad0"
+        ],
+        "children": []
+      }
+    },
+    {
+      "id": "18f25efa-d056-422a-9929-31c266a927f6",
+      "data": {
+        "gender": "F",
+        "first name": "Jadwiga",
+        "last name": "Korzeń",
+        "avatar": "/img/jadziakorzen.ico",
+        "birth year": "17.07.1951",
+        "death year": "",
+        "occupation": "",
+        "location": "Gdansk",
+        "education": "",
+        "nationality": "Poland",
+        "birth place": "Mroczno",
+        "death place": "",
+        "marriage date": "",
+        "email": "",
+        "phone": "",
+        "address": "",
+        "notes": "",
+        "maiden": ""
+      },
+      "rels": {
+        "spouses": [
+          "9834d597-663c-4629-8a37-c9415fd18376"
+        ],
+        "children": [
+          "50c761ec-5e08-4a62-8737-d46c197b8b2e",
+          "9916e823-3cb9-47e3-824e-c327365b2100",
+          "7342f5c2-281b-4db1-8e87-5386f27f7ad0"
+        ]
+      }
+    },
+    {
+      "id": "cc564322-ba93-43e1-9ee4-509476e3480f",
+      "data": {
+        "gender": "F",
+        "first name": "",
+        "last name": "",
+
+        "avatar": ""
+      },
+      "rels": {
+        "spouses": [
+          "f0824044-7cac-411c-87e5-7380e31de016"
+        ],
+        "children": [
+          "0f9404e5-9351-4899-97ec-2f8bef27220a",
+          "178a5905-2f00-45ab-a86c-b90618e48dd9"
+        ]
+      }
+    },
+    {
+      "id": "02a41fce-068e-4e05-8879-b2ffc2168ae5",
+      "data": {
+        "gender": "F",
+        "first name": "",
+        "last name": "",
+
+        "avatar": "0\\"
+      },
+      "rels": {
+        "spouses": [
+          "4cd9ee3b-2bc0-44bd-823b-748c0a2a1263"
+        ],
+        "children": [
+          "13837c8a-8ca9-4b22-94cc-84a17675c9ba"
+        ]
+      }
+    }
+  ]
