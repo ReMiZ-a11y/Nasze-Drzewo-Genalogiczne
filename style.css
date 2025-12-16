@@ -1,17 +1,176 @@
+#root, html, body {
+  height: 100%;
+}
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #121212;
   color: #fff;
+  -webkit-font-smoothing:antialiased;
 }
 #FamilyChart {
-margin:0;
-padding:0;    
-background-color: rgb(33, 33, 33);
-color: #fff;
-font-family: Arial, sans-serif;
-width:100%;
-height:900px;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(33, 33, 33);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  min-height: 600px;
+}
+
+/* Search bar styles */
+.site-header {
+  position: relative;
+  z-index: 20;
+  padding: 12px 16px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.25), rgba(0,0,0,0));
+}
+.site-header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 480px;
+  position: relative;
+}
+.search-bar input[type="search"] {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.03);
+  color: #fff;
+  font-size: 14px;
+}
+.search-bar input::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+.search-bar button#search-clear {
+  background: transparent;
+  border: none;
+  color: rgba(255,255,255,0.7);
+  font-size: 18px;
+  cursor: pointer;
+  padding: 6px 8px;
+  border-radius: 6px;
+}
+.search-bar button.random-person {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.06);
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-bar button.random-person:hover {
+  background: rgba(255,255,255,0.09);
+}
+.random-highlight {
+  animation: randomFlash 1s ease-in-out;
+}
+@keyframes randomFlash {
+  0% { box-shadow: 0 0 0 0 rgba(255,255,255,0.0); }
+  50% { box-shadow: 0 0 12px 4px rgba(255,255,255,0.06); }
+  100% { box-shadow: 0 0 0 0 rgba(255,255,255,0.0); }
+}
+.search-results {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: auto;
+  background: var(--background-color, #222);
+  border: 1px solid rgba(255,255,255,0.06);
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+  width: 100%;
+  max-height: 300px;
+  overflow: auto;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.6);
+  display: none;
+  z-index: 30;
+}
+.search-results.show {
+  display: block;
+}
+.search-results li {
+  padding: 8px 12px;
+  cursor: pointer;
+  color: var(--text-color, #fff);
+}
+.search-results li:hover, .search-results li.active {
+  background: rgba(255,255,255,0.06);
+}
+
+@media (max-width: 600px) {
+  .site-header .container { padding: 0 8px; }
+  .search-bar { max-width: 100%; }
+  /* Make chart occupy remaining viewport height to avoid bottom gaps */
+  html, body { height: 100%; }
+  .site-header { position: relative; }
+  #FamilyChart { height: calc(100vh - 64px); min-height: calc(100vh - 64px); }
+}
+
+/* Desktop / large screens: keep the previous fixed height so layout doesn't shift */
+@media (min-width: 601px) {
+  .site-header .container { padding: 0; }
+  #FamilyChart { height: 900px; min-height: 900px; }
+  /* make sure search header doesn't overlap chart */
+  .site-header { background: transparent; }
+}
+
+/* Mobile behavior: open form as full-screen overlay, desktop unchanged */
+@media (max-width: 600px) {
+  .f3-form-cont.opened {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    min-height: 100vh !important;
+    z-index: 1200 !important;
+    box-shadow: 0 0 30px rgba(0,0,0,0.6) !important;
+    background-color: var(--background-color, rgb(33,33,33)) !important;
+    overflow: auto !important;
+    transition: none !important;
+    display: block !important;
+  }
+
+  .f3-form {
+    padding: 18px !important;
+    height: 100% !important;
+    box-sizing: border-box;
+    overflow-y: auto !important;
+  }
+
+  /* Ensure close button is visible on mobile */
+  .f3-form-cont.opened .f3-close-btn {
+    left: 12px !important;
+    top: 12px !important;
+    font-size: 30px !important;
+    z-index: 1250 !important;
+  }
+
+  /* Optional backdrop effect */
+  .f3-form-cont.opened::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: 1190;
+  }
 }
   #message-box {
         opacity: 0;
@@ -618,6 +777,61 @@ height:900px;
 .f3-form {
   padding: 20px;
 }
+
+/* Always show scrollbar for the form and its container (visible gutter) */
+.f3-form, .f3-form-cont {
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* WebKit scrollbar styles (Chrome, Safari, Edge) */
+.f3-form::-webkit-scrollbar, .f3-form-cont::-webkit-scrollbar {
+  width: 12px;
+}
+.f3-form::-webkit-scrollbar-track, .f3-form-cont::-webkit-scrollbar-track {
+  background: transparent;
+}
+.f3-form::-webkit-scrollbar-thumb, .f3-form-cont::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.08);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Firefox scrollbar */
+.f3-form, .f3-form-cont {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.08) transparent;
+}
+
+/* Persistent custom scrollbar overlay for form container */
+.f3-form-cont {
+  position: relative;
+}
+.f3-form-cont .persistent-scrollbar-track {
+  position: absolute;
+  top: 8px;
+  right: 6px;
+  bottom: 8px;
+  width: 10px;
+  background: rgba(255,255,255,0.03);
+  border-radius: 8px;
+  z-index: 1400;
+  pointer-events: none;
+}
+.f3-form-cont .persistent-scrollbar-thumb {
+  position: absolute;
+  left: 1px;
+  width: 8px;
+  background: rgba(255,200,80,0.95); /* warm visible color */
+  border-radius: 8px;
+  box-shadow: 0 0 6px rgba(255,200,80,0.12);
+  z-index: 1401;
+  pointer-events: auto; /* allow dragging in future if desired */
+}
+
+/* Make sure the fake scrollbar is slightly hidden when container is small */
+.f3-form-cont.small-scroll .persistent-scrollbar-track { display: none; }
 
 .f3-form hr {
   border-style: solid; 

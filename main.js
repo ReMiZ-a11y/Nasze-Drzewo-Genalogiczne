@@ -58,9 +58,345 @@ async function main() {
     // Inicjalizacja wykresu
     f3ChartInstance = createAndConfigureChart(f3);
 
-// Wersja PO
-document.addEventListener('family-chart-form-submitted', saveDataToFirebase);
-console.log("✅ Ustawiono nasłuchiwanie na zapis po edycji w formularzu.");
+    // --- Wyszukiwarka osób (imie + nazwisko) ---
+    (function setupPersonSearch(){
+      const input = document.getElementById('person-search');
+      const results = document.getElementById('search-results');
+      const clearBtn = document.getElementById('search-clear');
+
+      if (!input || !results) return;
+
+      function getDataArray(){
+        try {
+          return (f3ChartInstance && f3ChartInstance.store && f3ChartInstance.store.getData()) || [];
+        } catch (e){
+          return [];
+        }
+      }
+
+      function getField(p, fieldNames){
+        // fieldNames: array of possible keys in order
+        if (!p) return '';
+        // plain fields on root
+        for (const k of fieldNames) {
+          if (p[k]) return String(p[k]);
+        }
+        // nested under p.data
+        if (p.data) {
+          for (const k of fieldNames) {
+            if (p.data[k]) return String(p.data[k]);
+          }
+        }
+        // sometimes values may be nested one level deeper
+        if (p[0] && typeof p[0] === 'object') {
+          for (const k of fieldNames) {
+            if (p[0][k]) return String(p[0][k]);
+          }
+        }
+        return '';
+      }
+
+      function formatName(p){
+        const fn = getField(p, ['first name', 'first_name', 'first']);
+        const ln = getField(p, ['last name', 'last_name', 'last']);
+        const name = (fn + (ln ? ' ' + ln : '')).trim();
+        if (name) return name;
+        // fallback to id or any label
+        return getField(p, ['id']) || (p && p.id) || '';
+      }
+
+      function clearResults(){
+        results.innerHTML = '';
+        results.classList.remove('show');
+      }
+
+      function showResults(list){
+        results.innerHTML = '';
+        if (!list.length) {
+          const li = document.createElement('li');
+          li.textContent = 'Brak wyników';
+          li.setAttribute('aria-disabled', 'true');
+          li.style.opacity = '0.6';
+          results.appendChild(li);
+          results.classList.add('show');
+          return;
+        }
+        for (const p of list) {
+          const li = document.createElement('li');
+          li.textContent = formatName(p);
+          // try to get id from multiple places
+          const pid = p && (p.id || p.data && p.data.id || p['id']);
+          if (pid) li.dataset.id = pid;
+          li.addEventListener('click', () => {
+            // Ustaw główną osobę w wykresie
+            try {
+              const idToUse = li.dataset.id;
+              if (idToUse && f3ChartInstance && f3ChartInstance.updateMainId) {
+                f3ChartInstance.updateMainId(idToUse);
+                f3ChartInstance.updateTree({ initial: false });
+              }
+            } catch (e) {
+              console.warn('Nie udało się przejść do osoby', e);
+            }
+            input.value = li.textContent;
+            clearResults();
+          });
+          results.appendChild(li);
+        }
+        results.classList.add('show');
+      }
+
+      function searchQuery(q){
+        if (!q) { clearResults(); return; }
+        const all = getDataArray();
+        const qq = q.toLowerCase();
+        const matches = all.filter(p => {
+          const fn = getField(p, ['first name', 'first_name', 'first']).toLowerCase();
+          const ln = getField(p, ['last name', 'last_name', 'last']).toLowerCase();
+          const full = (fn + ' ' + ln).trim();
+          return (full && full.includes(qq)) || (fn && fn.includes(qq)) || (ln && ln.includes(qq));
+        }).slice(0, 20);
+        showResults(matches);
+      }
+
+      // Debounce
+      let debounceTimer = null;
+      input.addEventListener('input', (e) => {
+        const v = e.target.value;
+        clearTimeout(debounceTimer);
+        debounceTimer = setTimeout(() => searchQuery(v.trim()), 200);
+      });
+
+      clearBtn && clearBtn.addEventListener('click', () => {
+        input.value = '';
+        clearResults();
+        input.focus();
+      });
+
+      // close when clicking outside
+      document.addEventListener('click', (ev) => {
+        if (!results.contains(ev.target) && ev.target !== input) clearResults();
+      });
+      // Random person button
+      const randomBtn = document.getElementById('random-person');
+      if (randomBtn) {
+        randomBtn.addEventListener('click', (ev) => {
+          ev.preventDefault();
+          const all = getDataArray();
+          if (!all || all.length === 0) {
+            showMessage && showMessage('Brak danych do wylosowania', 'info');
+            return;
+          }
+          // choose only those with an id
+          const candidates = all.filter(p => p && (p.id || (p.data && p.data.id)));
+          if (candidates.length === 0) {
+            showMessage && showMessage('Brak odpowiednich rekordów', 'info');
+            return;
+          }
+          const pick = candidates[Math.floor(Math.random()*candidates.length)];
+          const pid = pick.id || (pick.data && pick.data.id) || pick['id'];
+          const name = formatName(pick);
+          if (pid && f3ChartInstance && f3ChartInstance.updateMainId) {
+            try {
+              f3ChartInstance.updateMainId(pid);
+              f3ChartInstance.updateTree({ initial: false });
+              showMessage && showMessage(`Wylosowano: ${name}`, 'success');
+              // add small highlight to chart container
+              const chartEl = document.getElementById('FamilyChart');
+              chartEl && chartEl.classList.add('random-highlight');
+              setTimeout(()=> chartEl && chartEl.classList.remove('random-highlight'), 900);
+            } catch (e) {
+              console.warn('Błąd przy ustawianiu wylosowanej osoby', e);
+              showMessage && showMessage('Błąd przy ustawianiu osoby', 'error');
+            }
+          }
+        });
+      }
+    })();
+
+    // Wersja PO
+    document.addEventListener('family-chart-form-submitted', saveDataToFirebase);
+    console.log("✅ Ustawiono nasłuchiwanie na zapis po edycji w formularzu.");
+
+    // --- Dynamiczne dopasowanie wysokości wykresu ---
+    function adjustChartHeight(){
+      try {
+        const chartEl = document.getElementById('FamilyChart');
+        if (!chartEl) return;
+        const header = document.querySelector('.site-header');
+        const headerH = header ? header.getBoundingClientRect().height : 0;
+        const gap = 16; // dodatkowa przestrzeń
+        const newH = Math.max(400, window.innerHeight - headerH - gap);
+        chartEl.style.height = newH + 'px';
+        chartEl.style.minHeight = newH + 'px';
+      } catch (e) {
+        console.warn('adjustChartHeight error', e);
+      }
+    }
+
+    // debounce helper
+    let _resizeTimer = null;
+    window.addEventListener('resize', () => {
+      clearTimeout(_resizeTimer);
+      _resizeTimer = setTimeout(adjustChartHeight, 120);
+    });
+
+    // run now
+    adjustChartHeight();
+
+    // --- Persistent visible scrollbar for form/menu ---
+    function initPersistentScrollbar(){
+      const cont = document.querySelector('.f3-form-cont');
+      const form = document.querySelector('.f3-form');
+      if (!cont || !form) return;
+
+      // create track/thumb elements if not present
+      if (!cont.querySelector('.persistent-scrollbar-track')){
+        const track = document.createElement('div');
+        track.className = 'persistent-scrollbar-track';
+        const thumb = document.createElement('div');
+        thumb.className = 'persistent-scrollbar-thumb';
+        track.appendChild(thumb);
+        cont.appendChild(track);
+      }
+
+      const track = cont.querySelector('.persistent-scrollbar-track');
+      const thumb = cont.querySelector('.persistent-scrollbar-thumb');
+
+      function updateThumb(){
+        const scrollEl = form;
+        const h = scrollEl.clientHeight;
+        const scrollHeight = scrollEl.scrollHeight;
+        if (scrollHeight <= h) {
+          cont.classList.add('small-scroll');
+          return;
+        } else {
+          cont.classList.remove('small-scroll');
+        }
+        const trackRect = track.getBoundingClientRect();
+        const trackHeight = trackRect.height;
+        const thumbHeight = Math.max(24, (h / scrollHeight) * trackHeight);
+        const maxTop = trackHeight - thumbHeight;
+        const scrollRatio = scrollEl.scrollTop / (scrollHeight - h);
+        const top = Math.round(scrollRatio * maxTop);
+        thumb.style.height = thumbHeight + 'px';
+        thumb.style.transform = `translateY(${top}px)`;
+      }
+
+      // update on scroll and resize
+      form.addEventListener('scroll', updateThumb, { passive: true });
+      window.addEventListener('resize', updateThumb);
+      // initial
+      setTimeout(updateThumb, 50);
+    }
+
+    // watch for panel creation/opening (library might create it later)
+    const obs = new MutationObserver((mutations) => {
+      if (document.querySelector('.f3-form-cont')) {
+        initPersistentScrollbar();
+      }
+    });
+    obs.observe(document.body, { childList: true, subtree: true });
+
+    // --- Translate form labels/controls from English to Polish (display only) ---
+    const TRANSLATIONS = {
+      'gender': 'Płeć',
+      'male': 'Mężczyzna',
+      'female': 'Kobieta',
+      'first name': 'Imię',
+      'last name': 'Nazwisko',
+      'avatar': 'Avatar',
+      'maiden': 'Nazwisko panieńskie',
+      'birth year': 'Data urodzenia',
+      'death year': 'Rok śmierci',
+      'occupation': 'Zawód',
+      'location': 'Miejsce',
+      'education': 'Wykształcenie',
+      'nationality': 'Obywatelstwo',
+      'birth place': 'Miejsce urodzenia',
+      'death place': 'Miejsce śmierci',
+      'marriage date': 'Data ślubu',
+      'email': 'Email',
+      'phone': 'Telefon',
+      'address': 'Adres',
+      'notes': 'Notatki',
+
+      'cancel': 'Anuluj',
+      'submit': 'Zapisz',
+      'delete': 'Usuń',
+      'remove relation': 'Usuń relację',
+      'remove relative': 'Usuń relację'
+    };
+
+    function translateString(s){
+      if (!s) return s;
+      const key = s.trim().toLowerCase();
+      return TRANSLATIONS[key] || null;
+    }
+
+    function translateFormOnce(form){
+      if (!form) return;
+      // labels and field titles
+      const labelSelectors = ['label', '.f3-info-field-label', '.f3-form-field label', '.f3-form-title'];
+      labelSelectors.forEach(sel => {
+        form.querySelectorAll(sel).forEach(el => {
+          const txt = el.textContent || el.innerText || '';
+          const t = translateString(txt);
+          if (t) el.textContent = t;
+        });
+      });
+
+      // input placeholders
+      form.querySelectorAll('input, textarea, select').forEach(inp => {
+        if (inp.placeholder){
+          const t = translateString(inp.placeholder);
+          if (t) inp.placeholder = t;
+        }
+      });
+
+      // radio/option labels (usually <label> elements next to inputs)
+      form.querySelectorAll('label').forEach(lbl => {
+        const txt = lbl.textContent || '';
+        const t = translateString(txt);
+        if (t) lbl.textContent = t;
+      });
+
+      // buttons
+      form.querySelectorAll('button, .f3-delete-btn, .f3-remove-relative-btn').forEach(btn => {
+        const txt = (btn.textContent || btn.innerText || '').trim();
+        const t = translateString(txt);
+        if (t) btn.textContent = t;
+      });
+    }
+
+    // continuous observer to translate newly added nodes inside form
+    function observeAndTranslate(){
+      const container = document.body;
+      const mo = new MutationObserver((mutations) => {
+        for (const m of mutations){
+          for (const node of m.addedNodes){
+            if (!(node instanceof HTMLElement)) continue;
+            // if a form appeared
+            if (node.matches && node.matches('.f3-form') || node.querySelector && node.querySelector('.f3-form')){
+              const form = node.matches && node.matches('.f3-form') ? node : node.querySelector('.f3-form');
+              translateFormOnce(form);
+            }
+            // if the form container was added
+            if (node.matches && node.matches('.f3-form-cont') ){
+              const form = node.querySelector('.f3-form') || node;
+              translateFormOnce(form);
+            }
+          }
+        }
+      });
+      mo.observe(container, { childList: true, subtree: true });
+
+      // initial translate if already present
+      const existingForm = document.querySelector('.f3-form');
+      if (existingForm) translateFormOnce(existingForm);
+    }
+
+    observeAndTranslate();
 
     // Nasłuchujemy na zmiany w całej bazie danych
     const databaseRef = ref(database, "/id");
@@ -77,6 +413,21 @@ console.log("✅ Ustawiono nasłuchiwanie na zapis po edycji w formularzu.");
 
       // Aktualizujemy wykres danymi z bazy
       await f3ChartInstance.updateData(dataForChart);
+
+      // Ustaw losowy punkt główny przy każdym załadowaniu danych (random start)
+      try {
+        if (dataForChart && dataForChart.length > 0) {
+          const randIndex = Math.floor(Math.random() * dataForChart.length);
+          const candidate = dataForChart[randIndex] || {};
+          const randId = candidate.id || (candidate.data && candidate.data.id) || null;
+          if (randId && f3ChartInstance && typeof f3ChartInstance.updateMainId === 'function') {
+            f3ChartInstance.updateMainId(randId);
+          }
+        }
+      } catch (e) {
+        console.warn('Nie udało się ustawić losowego punktu głównego:', e);
+      }
+
       f3ChartInstance.updateTree({ initial: isFirstDataLoad });
       
       if (!isFirstDataLoad) {

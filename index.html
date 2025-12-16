@@ -32,6 +32,16 @@
   <meta name="twitter:image" content="https://twojastrona.pl/img/logo.png" />
 </head>
   <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="search-bar">
+          <button id="random-person" class="random-person" title="Losuj osobę" aria-label="Losuj osobę">🎲</button>
+          <input id="person-search" type="search" placeholder="Szukaj po imieniu lub nazwisku" aria-label="Szukaj osoby" />
+          <button id="search-clear" aria-label="Wyczyść wyszukiwanie">×</button>
+          <ul id="search-results" class="search-results" role="listbox" aria-label="Wyniki wyszukiwania"></ul>
+        </div>
+      </div>
+    </header>
     <div id="FamilyChart" class="f3"></div>
     <div id="message-box"></div>
 
