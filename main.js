@@ -8,6 +8,10 @@ import { waitForFamilyChart, createAndConfigureChart } from "./chart.js";
 // Zmienna przechowująca instancję wykresu, dostępna w całym module
 let f3ChartInstance = null;
 let isFirstDataLoad = true;
+// When we save data we want to keep the same person visible as "main".
+let lastSavedMainId = null;
+let justSaved = false;
+const persistedMainKey = 'f3_last_main_id';
 
 /**
  * Pobiera aktualne dane z wykresu i zapisuje je w Firebase.
@@ -39,11 +43,32 @@ async function saveDataToFirebase() {
   try {
     // Odniesienie do korzenia bazy danych
     const databaseRef = ref(database, '/id');
+    // remember current main id so after saving we can restore it instead of showing a random person
+    try {
+      if (f3ChartInstance && typeof f3ChartInstance.getMainId === 'function') {
+        lastSavedMainId = f3ChartInstance.getMainId();
+        justSaved = !!lastSavedMainId;
+      }
+    } catch (e) {
+      console.warn('Could not read current main id before save', e);
+      lastSavedMainId = null;
+      justSaved = false;
+    }
     await set(databaseRef, dataToSave);
     showMessage("✅ Drzewo zostało pomyślnie zapisane!", "success");
+      // persist chosen main id across reloads
+      try {
+        if (lastSavedMainId) localStorage.setItem(persistedMainKey, lastSavedMainId);
+      } catch (e) {
+        console.warn('Could not persist main id to localStorage', e);
+      }
+    // keep lastSavedMainId until the onValue listener processes the update
   } catch (error) {
     console.error("🔥 Błąd podczas zapisu do Firebase:", error);
     showMessage(`❌ Błąd zapisu: ${error.message}`, "error");
+    // reset on error
+    lastSavedMainId = null;
+    justSaved = false;
   }
 }
 
@@ -134,6 +159,7 @@ async function main() {
               if (idToUse && f3ChartInstance && f3ChartInstance.updateMainId) {
                 f3ChartInstance.updateMainId(idToUse);
                 f3ChartInstance.updateTree({ initial: false });
+                try { localStorage.setItem(persistedMainKey, idToUse); } catch(e){}
               }
             } catch (e) {
               console.warn('Nie udało się przejść do osoby', e);
@@ -200,6 +226,7 @@ async function main() {
             try {
               f3ChartInstance.updateMainId(pid);
               f3ChartInstance.updateTree({ initial: false });
+              try { localStorage.setItem(persistedMainKey, pid); } catch(e){}
               showMessage && showMessage(`Wylosowano: ${name}`, 'success');
               // add small highlight to chart container
               const chartEl = document.getElementById('FamilyChart');
@@ -213,6 +240,18 @@ async function main() {
         });
       }
     })();
+
+    // Persist current main id on unload so a refresh/close keeps the same person
+    window.addEventListener('beforeunload', () => {
+      try {
+        if (f3ChartInstance && typeof f3ChartInstance.getMainId === 'function') {
+          const mid = f3ChartInstance.getMainId();
+          if (mid) localStorage.setItem(persistedMainKey, mid);
+        }
+      } catch (e) {
+        // ignore
+      }
+    });
 
     // Wersja PO
     document.addEventListener('family-chart-form-submitted', saveDataToFirebase);
@@ -414,22 +453,63 @@ async function main() {
       // Aktualizujemy wykres danymi z bazy
       await f3ChartInstance.updateData(dataForChart);
 
-      // Ustaw losowy punkt główny przy każdym załadowaniu danych (random start)
+      // Ustaw punkt główny: jeśli przed zapisem użytkownik edytował osobę, przywróć ją.
+      // W przeciwnym razie (np. przy odświeżeniu strony) ustaw losową osobę jak wcześniej.
       try {
         if (dataForChart && dataForChart.length > 0) {
-          const randIndex = Math.floor(Math.random() * dataForChart.length);
-          const candidate = dataForChart[randIndex] || {};
-          const randId = candidate.id || (candidate.data && candidate.data.id) || null;
-          if (randId && f3ChartInstance && typeof f3ChartInstance.updateMainId === 'function') {
-            f3ChartInstance.updateMainId(randId);
+          // priority: if we just saved, restore that one; else if a persisted id exists use it; otherwise random
+          const persistedId = (() => {
+            try { return localStorage.getItem(persistedMainKey); } catch(e){ return null; }
+          })();
+
+          if (justSaved && lastSavedMainId) {
+            const exists = dataForChart.find(p => (p.id === lastSavedMainId) || (p.data && p.data.id === lastSavedMainId));
+            if (exists && f3ChartInstance && typeof f3ChartInstance.updateMainId === 'function') {
+              f3ChartInstance.updateMainId(lastSavedMainId);
+            } else {
+              // fallback to random if the saved id isn't present in returned data
+              const randIndex = Math.floor(Math.random() * dataForChart.length);
+              const candidate = dataForChart[randIndex] || {};
+              const randId = candidate.id || (candidate.data && candidate.data.id) || null;
+              if (randId && f3ChartInstance && typeof f3ChartInstance.updateMainId === 'function') {
+                f3ChartInstance.updateMainId(randId);
+              }
+            }
+          } else if (persistedId) {
+            const existsP = dataForChart.find(p => (p.id === persistedId) || (p.data && p.data.id === persistedId));
+            if (existsP && f3ChartInstance && typeof f3ChartInstance.updateMainId === 'function') {
+              f3ChartInstance.updateMainId(persistedId);
+            } else {
+              // fallback to random
+              const randIndex = Math.floor(Math.random() * dataForChart.length);
+              const candidate = dataForChart[randIndex] || {};
+              const randId = candidate.id || (candidate.data && candidate.data.id) || null;
+              if (randId && f3ChartInstance && typeof f3ChartInstance.updateMainId === 'function') {
+                f3ChartInstance.updateMainId(randId);
+              }
+            }
+          } else {
+            const randIndex = Math.floor(Math.random() * dataForChart.length);
+            const candidate = dataForChart[randIndex] || {};
+            const randId = candidate.id || (candidate.data && candidate.data.id) || null;
+            if (randId && f3ChartInstance && typeof f3ChartInstance.updateMainId === 'function') {
+              f3ChartInstance.updateMainId(randId);
+            }
           }
         }
       } catch (e) {
-        console.warn('Nie udało się ustawić losowego punktu głównego:', e);
+        console.warn('Nie udało się ustawić punktu głównego:', e);
       }
 
       f3ChartInstance.updateTree({ initial: isFirstDataLoad });
       
+      // If we just restored the main id after a save, reset the flag so subsequent
+      // realtime updates behave normally (e.g. manual refresh will pick random).
+      if (justSaved) {
+        justSaved = false;
+        lastSavedMainId = null;
+      }
+
       if (!isFirstDataLoad) {
         showMessage("🔄 Wykres zsynchronizowany z Firebase!", "info");
       }
