@@ -130,48 +130,7 @@ body {
   .site-header { background: transparent; }
 }
 
-/* Mobile behavior: open form as full-screen overlay, desktop unchanged */
-@media (max-width: 600px) {
-  .f3-form-cont.opened {
-    position: fixed !important;
-    top: 0 !important;
-    right: 0 !important;
-    left: 0 !important;
-    width: 100vw !important;
-    height: 100vh !important;
-    min-height: 100vh !important;
-    z-index: 1200 !important;
-    box-shadow: 0 0 30px rgba(0,0,0,0.6) !important;
-    background-color: var(--background-color, rgb(33,33,33)) !important;
-    overflow: auto !important;
-    transition: none !important;
-    display: block !important;
-  }
-
-  .f3-form {
-    padding: 18px !important;
-    height: 100% !important;
-    box-sizing: border-box;
-    overflow-y: auto !important;
-  }
-
-  /* Ensure close button is visible on mobile */
-  .f3-form-cont.opened .f3-close-btn {
-    left: 12px !important;
-    top: 12px !important;
-    font-size: 30px !important;
-    z-index: 1250 !important;
-  }
-
-  /* Optional backdrop effect */
-  .f3-form-cont.opened::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background: rgba(0,0,0,0.35);
-    z-index: 1190;
-  }
-}
+/* Mobile behavior: same as desktop (no special full-screen overlay) */
   #message-box {
         opacity: 0;
   transform: translateY(-20px);
@@ -827,7 +786,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 0 6px rgba(255,200,80,0.12);
   z-index: 1401;
-  pointer-events: auto; /* allow dragging in future if desired */
+  pointer-events: auto; /* allow dragging/interacting with the custom thumb */
 }
 
 /* Make sure the fake scrollbar is slightly hidden when container is small */
